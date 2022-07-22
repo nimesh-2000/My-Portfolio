@@ -1,4 +1,4 @@
-<h1 align="center">My Portfoliyo</h1>
+<h1 align="center">My Portfolio</h1>
 <h3 align="center">Here---> Links of Site Map,wire Frame & Mock Up</h3>
 
  Site Map Link https:https://www.gloomaps.com/kzwa9p9EbF
