@@ -7,6 +7,4 @@
  
  Mock Up Link https:https://www.figma.com/file/5ERR7GPdWdnGPI3AIhXHw3/Untitled?node-id=1%3A2
 
-Gloomaps (https://www.gloomaps.com/jaxYeegQnq)
-GlooMaps - Visual Sitemap Tool
-GlooMaps, simple and fast online sitemapping tool. Create and build a visual sitemap, add content and share with others. Website planning made easy!
+
