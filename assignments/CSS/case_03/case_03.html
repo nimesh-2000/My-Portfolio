@@ -8,7 +8,7 @@
        main {
            height: 100vh;
            width: 100vw;
-           position: relative;
+           /*position: relative;*/
        }
        /*main > section {*/
        /*    height: 50vh;*/
@@ -46,7 +46,7 @@
            bottom: 0;
            margin: auto;
        }
-       main>div:nth-child(3){
+       main>section:nth-child(3)>div{
            border-radius:100%;
            width: 150px;
            height: 150px;
@@ -57,7 +57,7 @@
            left: 0;
            margin: auto;
        }
-       main>div:nth-child(4){
+       main>section:nth-child(4)>div{
            border-radius:100%;
            width: 150px;
            height: 150px;
@@ -69,7 +69,7 @@
            bottom: 0;
            margin: auto;
        }
-       main>div:nth-child(5){
+       main>section:nth-child(5)>div{
            border-radius:100%;
            width: 150px;
            height: 150px;
@@ -80,7 +80,7 @@
            bottom: 0;
            margin: auto;
        }
-       main>div:nth-child(3)>h2{
+       main>section:nth-child(3)>div>h3{
            position: absolute;
            top: 0;
            left: 0;
@@ -89,6 +89,29 @@
            width: 53px;
            height: 32px;
            margin: auto;
+           text-align: center;
+       }
+       main>section:nth-child(4)>div>h3{
+           position: absolute;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           width: 53px;
+           height: 32px;
+           margin: auto;
+           text-align: center;
+       }
+       main>section:nth-child(5)>div>h3{
+           position: absolute;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+           width: 86px;
+           height: 81px;
+           margin: auto;
+           text-align: center;
        }
    </style>
 <body>
@@ -97,12 +120,23 @@
         <div></div>
         <div></div>
 
-
+   <section>
     <div>
-        <h2>Hello</h2>
+        <h3>Hello</h3>
     </div>
-    <div></div>
-    <div></div>
+   </section>
+
+    <section>
+    <div>
+        <h3>Welcome To</h3>
+    </div>
+    </section>
+
+    <section>
+    <div>
+        <h3>Institute of software engineering</h3>
+    </div>
+    </section>
 </main>
 
 </body>
