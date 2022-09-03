@@ -17,7 +17,83 @@
     <link href="assets/fonts/css/all.min.css" rel="stylesheet">
      /*header.css*/
     <link href="assets/css/header.css" rel="stylesheet">
+      <style>
 
+          main>section:nth-child(1){
+              background-color: #1E272E;
+              height: 650px;
+              width:98.9vw ;
+              top: -17px;
+              position: relative;
+          }
+          main>section>section:nth-child(1)>div>h1{
+              position: absolute;
+              top: 28px;
+              left: 347px;
+              font-size: 30px;
+              font-family: 'Poppins', Inter;
+              font-weight: bold;
+              color: #00D2D3;
+          }
+          main>section>section:nth-child(2)>aside:nth-child(1)>div:nth-child(1){
+              background-image: url("assets/img/about img.png");
+              width: 188px;
+              height: 218px;
+              position: absolute;
+              left: 30px;
+              top: 100px;
+              background-size: cover;
+              background-position: center;
+              z-index: 2;
+          }
+          main>section>section:nth-child(2)>aside:nth-child(1)>div:nth-child(2){
+              border: 5px solid #00D2D3 ;
+              width: 188px;
+              height: 218px;
+              position: absolute;
+              left: 61px;
+              top: 70px;
+              z-index: 1;
+
+          }
+          main>section>section:nth-child(2)>aside:nth-child(2)>article:nth-child(1)>p{
+                 color: white;
+                 width: 487px;
+                 height: 200px;
+                 font-size: 20px;
+                 position: absolute;
+              top: 95px;
+              left: 347px;
+          }
+          main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3{
+              color: white;
+              width: 587px;
+              height: 27px;
+              font-size: 20px;
+              position: absolute;
+              /*top: 343px;*/
+              /*left: 323px;*/
+              /*font-family: 'Poppins', Inter;*/
+              /*font-weight: lighter;*/
+          }
+          main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(1){
+              top: 343px;
+              left: 323px;
+              /*font-family: 'Poppins', Inter;*/
+              /*font-weight: lighter;*/
+          }
+          /*main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>li>h1{*/
+          /*    color: #00D2D3;*/
+          /*    width: 587px;*/
+          /*    height: 27px;*/
+          /*    font-size: 20px;*/
+          /*    position: relative;*/
+          /*    top: 343px;*/
+          /*    left: 323px;*/
+          /*    !*font-family: 'Poppins', Inter;*!*/
+          /*    !*font-weight: lighter;*!*/
+          /*}*/
+      </style>
 </head>
 <body>
 <header>
@@ -58,27 +134,31 @@
         </map>
     </section>
     <section>
-        <dev>
+        <div>
             <h1>HELLO!</h1>
             <h1>I'm</h1>
             <h1><b>Nimesh Denuwan</b></h1>
           <h3>Full Stack Developer</h3>
-        </dev>
+        </div>
     </section>
      </section>
     </section>
 </header>
 <main>
 
-<!--    about-->
+<!--    about------------------------------------------------------------------------------------------------------------------------>
 
 <section>
   <section>
+      <div>
     <h1>ABOUT ME</h1>
+      </div>
   </section>
     <section>
        <aside>
-           <img src="assets/img/about%20img.png" alt="">
+           <div></div>
+           <div></div>
+<!--           <img src="assets/img/about%20img.png" alt="">-->
        </aside>
         <aside>
             <article>
@@ -93,17 +173,17 @@
 
             </article>
             <address>
-               <li> NAME: W.Nimesh Denuwana Silva</li>
+                <h3> NAME:</h3> <h4>W.Nimesh Denuwana Silva</h4>
                 <br>
-                <li>DATE OF BIRTH: 20 February 2000</li>
+                <h3>DATE OF BIRTH:</h3> <h4>20 February 2000</h4>>
                 <br>
-                <li>NATIONALITY: Srilankan</li>
+                <h3>NATIONALITY:</h3> <h4>Srilankan</h4>
                 <br>
-                <li>ADDRESS: No 72/A Payagala,Kalutara,Western Province,Sri Lanka</li>
+                <h3>ADDRESS:</h3> <h4>No 72/A Payagala,Kalutara,Western Province,Sri Lanka</h4>
                 <br>
-                <li>Phone : <a href="tel:+94753238737">(+94)-753238737</a></li>
+                <h3>Phone :</h3> <h4><a href="tel:+94753238737">(+94)-753238737</a></h4>
                 <br>
-                <li>E-Mail : <a href="mailto:nimeshdenuwan2000@gmail.com">nimeshdenuwan2000@gmail.com</a></li>
+                <h3>E-Mail :</h3> <h4><a href="mailto:nimeshdenuwan2000@gmail.com">nimeshdenuwan2000@gmail.com</a></h4>
 
             </address>
         </aside>
