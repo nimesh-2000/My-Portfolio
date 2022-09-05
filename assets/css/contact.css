@@ -1,0 +1,33 @@
+main>section:nth-child(8){
+    background-color: #2F3542;
+    height: 650px;
+    width:98.9vw ;
+    top: -170px;
+    position: relative;
+}
+main>section:nth-child(8)>section:nth-child(1)>h1{
+    position: absolute;
+    top: -11px;
+    left: 640px;
+    font-size: 30px;
+    font-family: 'Poppins', Inter;
+    font-weight: bold;
+    color: #00D2D3;
+}
+main>section:nth-child(8)>section:nth-child(1)>h3{
+    position: absolute;
+    top: 60px;
+    left: 239px;
+    font-size: 20px;
+    color: white;
+}
+main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>div:nth-child(5){
+    position: absolute;
+    background-image: url("../../assets/img/My project (80).png");
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    top: 60px;
+    left: 239px;
+}
