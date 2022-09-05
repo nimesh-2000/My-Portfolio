@@ -23,12 +23,50 @@ main>section:nth-child(6)>section:nth-child(1)>h3{
 }
 main>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
     position: absolute;
-    background-image: url("../../assets/img/Ellipse 5.png");
+    background-image: url("../../assets/img/p1.png");
     /*font-size: 25px;*/
-    width: 50px;
-    height: 50px;
+    width: 241px;
+    height: 369px;
     background-size: cover;
     background-position: center;
-    top: 68px;
-    left: 200px;
+    border: 10px solid #00D2D3;
+    top: 155px;
+    left: 240px;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+    position: absolute;
+    background-image: url("../../assets/img/p3.jpg");
+    /*font-size: 25px;*/
+    width: 241px;
+    height: 369px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #00D2D3;
+    top: 155px;
+    left: 970px;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
+    position: absolute;
+    background-image: url("../../assets/img/p2.jpg");
+    /*font-size: 25px;*/
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #00D2D3;
+    top: 106px;
+    left: 553px;
+}
+main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
+    position: absolute;
+    background-color: #00D2D3;
+    /*font-size: 25px;*/
+    width: 350px;
+    height: 450px;
+    opacity: 0.6;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*border: 5px solid #00D2D3;*/
+    top: 117px;
+    left: 563px;
 }
