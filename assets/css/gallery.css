@@ -81,5 +81,10 @@ main>section:nth-child(2)>section:nth-child(3)>h3{
 }
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 320px) {
-
+    main>section:nth-child(2){
+        background-color: #2F3542;
+        height: 300px;
+        width:320px ;
+        top: 32px;
+    }
 }
