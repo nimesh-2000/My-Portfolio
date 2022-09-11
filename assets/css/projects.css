@@ -144,7 +144,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
 @media all and (max-width: 320px) {
     main>section:nth-child(6){
         background-color: #2F3542;
-        height: 500px;
+        height: 422px;
         width:320px ;
         top: -17px;
     }
@@ -231,55 +231,53 @@ main>section:nth-child(6)>section:nth-child(6)>button{
     }
     main>section:nth-child(6)>section:nth-child(4)>h3{
         position: absolute;
-        top: 60px;
-        left: 200px;
-        font-size: 13px;
+        top: 228px;
+        left: 31px;
+        font-size: 10px;
         color: #00D2D3;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
-        position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
-        width: 200px;
-        height: 300px;
+        width: 60px;
+        height: 80px;
         background-size: cover;
         background-position: center;
-        border: 10px solid #00D2D3;
-        top: 742px;
-        left: 342px;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 42px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
-        position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
-        width: 200px;
-        height: 300px;
+        width: 60px;
+        height: 80px;
         background-size: cover;
         background-position: center;
-        border: 10px solid #00D2D3;
-        top: 742px;
-        left: 580px;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 115px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
-        width: 200px;
-        height: 300px;
+        width: 60px;
+        height: 80px;
         background-size: cover;
         background-position: center;
-        border: 10px solid #00D2D3;
-        top: 742px;
-        left: 818px;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 188px;
     }
     main>section:nth-child(6)>section:nth-child(6)>button{
-        position: absolute;
-        left: 1205px;
-        top: 1094px;
+        left: 246px;
+        top: 362px;
         background-color: #2F3542;
-        border:4px solid #00D2D3;
+        border: 2px solid #00D2D3;
         color: #FFFFFF;
-        width: 139px;
-        height: 44px;
+        width: 54px;
+        height: 22px;
+        font-size: 10px;
     }
 }
