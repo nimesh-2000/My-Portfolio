@@ -141,12 +141,16 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
         right: 0;
         left: -39px;
         height: 30px;
+        width: 320px;
     }
     header >section>section> nav > ul > li {
 
         padding: 1px;
         font-size: 8px;
 
+    }
+    header>section>section>nav>ul{
+        width: 320px;
     }
     /*icons */
     header>section>section:nth-child(2)>section:nth-child(2){

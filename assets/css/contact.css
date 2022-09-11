@@ -145,7 +145,7 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
 @media all and (max-width: 320px) {
     main>section:nth-child(8){
         background-color: #2F3542;
-        height: 650px;
+        height: 506px;
         width:320px ;
         top: -17px;
         position: relative;
