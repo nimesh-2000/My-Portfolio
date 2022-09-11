@@ -141,3 +141,13 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
     width: 139px;
     height: 44px;
 }
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px) {
+    main>section:nth-child(8){
+        background-color: #2F3542;
+        height: 650px;
+        width:98.9vw ;
+        top: -17px;
+        position: relative;
+    }
+}
