@@ -159,4 +159,84 @@ main>section:nth-child(2)>section:nth-child(3)>h3{
         text-decoration: underline;
     }
 }
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    main>section:nth-child(2){
+        background-color: #2F3542;
+        height: 600px;
+        width:98.9vw ;
+        top: 0px;
+    }
+    main>section:nth-child(2)>section:nth-child(1)>h1{
+        top: -5px;
+        left: 129px;
+        font-size: 18px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2){
+        width: 308px;
+        height: 400px;
+        display: grid;
+        left: 0;
+        right: 0;
+        top: 51px;
+        margin: auto;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(1){
+        background: url("../../assets/img/my 1.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(2){
+        background: url("../../assets/img/my 2.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(3){
+        background: url("../../assets/img/my 3.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(4){
+        background: url("../../assets/img/my 4.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(5){
+        background: url("../../assets/img/5.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2)>div:nth-child(6){
+        background: url("../../assets/img/324.jpeg");
+        background-size: cover;
+        background-position: center;
+        /*box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);*/
+        border: 3px solid #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(3)>h3{
+        top: 455px;
+        right: 0;
+        left: 85%;
+        width: 30px;
+        font-size: 16px;
+        color: white;
+        text-decoration: underline;
+    }
+}
 
