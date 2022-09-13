@@ -201,27 +201,27 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(5){
 @media all and (min-width: 377px) and (max-width: 426px){
     main>section:nth-child(5){
         background-color:#1E272E;
-        height: 100px;
+        height: 110px;
         width:98.9vw ;
         top: -17px;
         position: relative;
     }
     main>section:nth-child(5)>section:nth-child(1)>h1{
-        top: -5px;
-        left: 120px;
-        font-size: 18px;
+        top: -8px;
+        left: 137px;
+        font-size: 20px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: #00D2D3;
     }
     main>section:nth-child(5)>section:nth-child(2){
-        height: 111px;
+        height: 115px;
         position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 320px;
-        left: 9px;
+        left: 30px;
     }
     main>section:nth-child(5)>section:nth-child(2)>div:nth-child(1){
         height: 60px;
