@@ -462,7 +462,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 98px;
-        left: 50px;
+        left: 64px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
         position: absolute;
@@ -474,7 +474,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 98px;
-        left: 218px;
+        left: 240px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
         position: absolute;
@@ -486,7 +486,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 88px;
-        left: 129px;
+        left: 147px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
         position: absolute;
@@ -499,10 +499,10 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         /*background-position: center;*/
         /*border: 5px solid #00D2D3;*/
         top: 89px;
-        left: 131px;
+        left: 149px;
     }
     main>section:nth-child(6)>section:nth-child(3)>button{
-        left: 255px;
+        left: 279px;
         top: 200px;
         background-color: #2F3542;
         border: 2px solid #00D2D3;
@@ -527,7 +527,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 277px;
-        left: 42px;
+        left: 60px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
@@ -538,7 +538,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 277px;
-        left: 120px;
+        left: 147px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
         position: absolute;
@@ -550,10 +550,10 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         background-position: center;
         border: 2px solid #00D2D3;
         top: 277px;
-        left: 199px;
+        left: 231px;
     }
     main>section:nth-child(6)>section:nth-child(6)>button{
-        left: 256px;
+        left: 279px;
         top: 380px;
         background-color: #2F3542;
         border: 2px solid #00D2D3;
