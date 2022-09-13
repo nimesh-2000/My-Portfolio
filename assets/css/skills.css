@@ -755,8 +755,192 @@ main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(4){
 }
 @media all and (min-width: 427px) and (max-width: 769px){
     main>section:nth-child(3){
-        height: 702px;
+        height: 484px;
         width: 98.9vw;
         top: 0px;
+    }
+    main>section:nth-child(3)>section:nth-child(1)>h1{
+        top: -5px;
+        left: 269px;
+        font-size: 23px;
+    }
+    main>section:nth-child(3)>section:nth-child(2)>h4 {
+
+        top: 39px;
+        left: 35px;
+        font-size: 18px;
+    }
+    /*==================================================================================================================================================*/
+    main>section:nth-child(3)>section:nth-child(3){
+        height: 293px;
+        display: flex;
+        align-items: center;
+        width: 703px;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    main>section:nth-child(3)>section:nth-child(4){
+        position: absolute;
+        height: 431px;
+        display: flex;
+        width: 556px;
+        top: -21px;
+        left: 81px;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(1){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 1;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(1){
+        font-size: 14px;
+        color: white;
+        order: 1;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(2){
+        font-size: 14px;
+        color: white;
+        order: 2;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(3){
+        font-size: 14px;
+        color: white;
+        order: 3;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(4){
+        font-size: 14px;
+        color: white;
+        order: 4;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(5){
+        font-size: 14px;
+        color: white;
+        order: 5;
+    }
+    main>section:nth-child(3)>section:nth-child(4)>h4:nth-child(6){
+        font-size: 14px;
+        color: white;
+        order: 6;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(2){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 2;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(3){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 3;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(4){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 4;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(5){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 6;
+    }
+    main>section:nth-child(3)>section:nth-child(3)>img:nth-child(6){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 5;
+    }
+
+
+    /*tools----------------------------------------------------------------------------------------------------------------------------*/
+    main>section:nth-child(3)>section:nth-child(5)>h4{
+        position: absolute;
+        top: 258px;
+        left: 35px;
+        font-size: 18px;
+        color: white;
+    }
+    main>section:nth-child(3)>section:nth-child(6){
+        position: absolute;
+        height: 41px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 411px;
+        top: 336px;
+        left: 34px;
+    }
+    main>section:nth-child(3)>section:nth-child(6)>img:nth-child(1){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 1;
+    }
+    main>section:nth-child(3)>section:nth-child(6)>img:nth-child(2){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 2;
+    }
+    main>section:nth-child(3)>section:nth-child(6)>img:nth-child(3){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 3;
+    }
+    main>section:nth-child(3)>section:nth-child(6)>img:nth-child(4){
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+        order: 4;
+    }
+    main>section:nth-child(3)>section:nth-child(7){
+        position: absolute;
+        height: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 418px;
+        top: 394px;
+        left: 40px;
+    }
+    main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(1){
+        font-size: 14px;
+        color: white;
+        order: 1;
+    }
+    main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(2){
+        font-size: 14px;
+        color: white;
+        order: 2;
+    }
+    main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(3){
+        font-size: 14px;
+        color: white;
+        order: 3;
+    }
+    main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(4){
+        font-size: 14px;
+        color: white;
+        order: 4;
     }
 }

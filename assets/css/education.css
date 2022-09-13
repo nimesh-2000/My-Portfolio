@@ -965,3 +965,11 @@ main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(3){
         left: 188px;
     }
 }
+@media all and (min-width: 427px) and (max-width: 769px){
+    main > section:nth-child(4) {
+        background-color: #2F3542;
+        height: 393px;
+        width: 98.9vw;
+        top: 0px;
+    }
+}
