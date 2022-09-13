@@ -398,3 +398,136 @@ main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth
     }
 
 }
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 377px) and (max-width: 426px){
+    main>section:nth-child(1){
+        background-color: #1E272E;
+        height: 700px;
+        width:98.9vw;
+        top: 0px;
+    }
+    main>section>section:nth-child(1)>div>h1{
+        top: -5px;
+        left: 151px;
+        font-size: 20px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+
+    main>section>section:nth-child(2)>aside:nth-child(1)>div:nth-child(1){
+        background-image: url("../../assets/img/about img.png");
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        left: 131px;
+        top: 51px;
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(1)>div:nth-child(2){
+        border: 2px solid #00D2D3;
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        left: 146px;
+        top: 37px;
+        z-index: 1;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>article:nth-child(1)>p{
+        color: white;
+        width: 291px;
+        height: 151px;
+        font-size: 17px;
+        top: 162px;
+        left: 58px;
+    }
+    /*-----------------------------------------*/
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3{
+        color: #00D2D3;
+        width: 200px;
+        height: 15px;
+        font-size: 16px;
+        position: absolute;
+        /*top: 343px;*/
+        /*left: 323px;*/
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4{
+        color: white;
+        width: 200px;
+        height: 15px;
+        font-size: 16px;
+        position: absolute;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(2){
+        top: 361px;
+        left: 101px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(4){
+        top: 392px;
+        left: 175px;
+        width: 124px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(6){
+        top: 427px;
+        left: 161px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(8){
+        top: 461px;
+        left: 130px;
+        width: 134px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(10){
+        top: 534px;
+        left: 116px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(12){
+        top: 571px;
+        left: 115px;
+
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(1){
+        top: 366px;
+        left: 45px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(3){
+        top: 397px;
+        left: 45px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(5){
+        top: 433px;
+        left: 45px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(7){
+        top: 467px;
+        left: 45px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(9){
+        top: 540px;
+        left: 45px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth-child(11){
+        top: 578px;
+        left: 45px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: lighter;*/
+    }
+}
