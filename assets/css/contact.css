@@ -275,3 +275,13 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         font-size: 10px;
     }
 }
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    main>section:nth-child(8){
+        background-color: #2F3542;
+        height: 506px;
+        width:98.9vw;
+        top: -17px;
+        position: relative;
+    }
+}
