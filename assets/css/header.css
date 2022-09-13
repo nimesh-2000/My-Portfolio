@@ -409,3 +409,106 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
     }
 
 }
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 427px) and (max-width: 769px){
+    header {
+        height: 250px;
+        width: 98.9vw;
+    }
+
+    header > section > section:nth-child(2) {
+        background-image: url("../img/business-concept-young-business-man-woking-financial-plan-strategy-analysis.jpg");
+        width: 98.9vw;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    header > section > section:nth-child(2) > div:nth-child(1) {
+        opacity: 0.8;
+        width: 98.9vw;
+        height: 250px;
+        margin: auto;
+        z-index: 2;
+    }
+
+    header > section > section:nth-child(1) {
+        background: #00cec9;
+        box-shadow: 0px -1px 8px 2px #1c1717e8;
+        position: fixed;
+        width: 98.9vw;
+        top: 0;
+        height: 45px;
+        z-index: 3;
+        opacity: 0.8;
+    }
+
+    header > section > section:nth-child(1) > nav {
+        top: -5px;
+        right: 0;
+        left: 169px;
+        height: 30px;
+        width: 98.9vw;
+    }
+
+    header > section > section > nav > ul > li {
+
+        padding: 2px;
+        font-size: 14px;
+
+    }
+
+    header > section > section > nav > ul {
+        width: 98.9vw;
+    }
+
+    /*icons */
+    header > section > section:nth-child(2) > section:nth-child(2) {
+        position: absolute;
+        z-index: 3;
+        top: 58px;
+        left: 20px;
+        display: inline-block;
+
+    }
+
+    header > section > section:nth-child(2) > section:nth-child(2) > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*hello im nimesh*/
+    header > section > section:nth-child(2) > section:nth-child(3) > div > h1:nth-child(1) {
+        top: 111px;
+        left: 22px;
+        font-size: 35px;
+    }
+
+    header > section > section:nth-child(2) > section:nth-child(3) > div > h1:nth-child(2) {
+        z-index: 3;
+        top: 146px;
+        left: 22px;
+        font-size: 30px;
+        color: white;
+        /*font-family: 'Poppins', Inter;*/
+    }
+
+    header > section > section:nth-child(2) > section:nth-child(3) > div > h1:nth-child(3) {
+        z-index: 3;
+        top: 146px;
+        left: 72px;
+        font-size: 30px;
+        /*font-family: 'Poppins', Inter;*/
+        /*font-weight: bold;*/
+        color: white;
+    }
+
+    /*----------------------------------------*/
+    header > section > section:nth-child(2) > section:nth-child(3) > div > h3:nth-child(4) {
+        z-index: 3;
+        top: 174px;
+        left: 22px;
+        font-size: 20px;
+        color: white;
+    }
+}
