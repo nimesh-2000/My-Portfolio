@@ -348,7 +348,7 @@ footer>address>small:nth-child(3){
     }
     footer>section:nth-child(1){
         top: 29px;
-        left: 94px;
+        left: 121px;
         /* height: 107px; */
         display: flex;
         flex-wrap: nowrap;
@@ -379,7 +379,7 @@ footer>address>small:nth-child(3){
         width: 35px;
         height: 35px;
         top: 43px;
-        left: 96px;
+        left: 122px;
         background-size: cover;
         background-position: center;
         background-color: #1E272E;
@@ -391,7 +391,7 @@ footer>address>small:nth-child(3){
         width: 35px;
         height: 35px;
         top: 43px;
-        left: 135px;
+        left: 162px;
         background-size: cover;
         background-position: center;
         background-color: #1E272E;
@@ -403,7 +403,7 @@ footer>address>small:nth-child(3){
         width: 35px;
         height: 35px;
         top: 43px;
-        left: 175px;
+        left: 200px;
         background-size: cover;
         background-position: center;
         background-color: #1E272E;
@@ -415,7 +415,7 @@ footer>address>small:nth-child(3){
         width: 35px;
         height: 35px;
         top: 43px;
-        left: 214px;
+        left: 240px;
         background-size: cover;
         background-position: center;
         background-color: #1E272E;
@@ -425,8 +425,8 @@ footer>address>small:nth-child(3){
     footer>address>small:nth-child(1){
         position: absolute;
         top: 97px;
-        left: 23px;
-        font-size: 12px;
+        left: 16px;
+        font-size: 14px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: white;
@@ -434,8 +434,8 @@ footer>address>small:nth-child(3){
     footer>address>small:nth-child(2){
         position: absolute;
         top: 97px;
-        left: 98px;
-        font-size: 12px;
+        left: 102px;
+        font-size: 14px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: #00D2D3;
@@ -443,8 +443,8 @@ footer>address>small:nth-child(3){
     footer>address>small:nth-child(3){
         position: absolute;
         top: 97px;
-        left: 163px;
-        font-size: 12px;
+        left: 176px;
+        font-size: 14px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: white;
