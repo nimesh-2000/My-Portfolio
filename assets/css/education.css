@@ -720,3 +720,248 @@ main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(3){
         left: 163px;
     }
 }
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 377px) and (max-width: 426px){
+    main > section:nth-child(4) {
+        background-color: #2F3542;
+        height: 393px;
+        width: 98.9vw;
+        top: -17px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(1) > h1 {
+        top: -10px;
+        left: 143px;
+        font-size: 20px;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(1) > h3:nth-child(1) {
+        font-size: 13px;
+        top: 59px;
+        left: 86px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(1) > h3:nth-child(2) {
+        font-size: 13px;
+        top: 70px;
+        left: 59px;
+        width: 131px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(1) > h3:nth-child(3) {
+        font-size: 13px;
+        top: 114px;
+        left: 59px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(1) {
+        background-image: url("../../assets/img/Ellipse 5.png");
+        /* font-size: 25px; */
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        background-position: center;
+        top: 28px;
+        left: 180px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(2) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 2px;
+        height: 42px;
+        background-size: cover;
+        background-position: center;
+        top: 51px;
+        left: 191px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(3) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 14px;
+        height: 14px;
+        background-size: cover;
+        background-position: center;
+        top: 91.7px;
+        left: 185px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(4) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 9px;
+        height: 9px;
+        background-size: cover;
+        background-position: center;
+        top: 94px;
+        left: 186.9px;
+    }
+    /*=================================================================================================*/
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(5) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 2px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        top: 105px;
+        left: 191px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(6) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 14px;
+        height: 14px;
+        background-size: cover;
+        background-position: center;
+        top: 184px;
+        left: 185px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(7) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 9px;
+        height: 9px;
+        background-size: cover;
+        background-position: center;
+        top: 186px;
+        left: 186.9px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(8) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 2px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        top: 198px;
+        left: 191px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(9) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 14px;
+        height: 14px;
+        background-size: cover;
+        background-position: center;
+        top: 278px;
+        left: 185px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(10) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 9px;
+        height: 9px;
+        background-size: cover;
+        background-position: center;
+        top: 281px;
+        left: 186.9px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(11) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 2px;
+        height: 42px;
+        background-size: cover;
+        background-position: center;
+        top: 291px;
+        left: 191px;
+    }
+
+    main > section:nth-child(4) > section:nth-child(3) > div:nth-child(12) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 9px;
+        height: 9px;
+        background-size: cover;
+        background-position: center;
+        top:329px;
+        left: 186.9px;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(2) {
+        position: absolute;
+        background-image: url("../../assets/img/Kalutara_Vidyalaya_logo.png");
+        /*font-size: 25px;*/
+        width: 40px;
+        height: 48px;
+        background-size: cover;
+        background-position: center;
+        top: 171px;
+        left: 110px;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(3) > h3:nth-child(1) {
+        position: absolute;
+        font-size: 13px;
+        top: 250px;
+        left: 43px;
+        width: 133px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(2) > div:nth-child(3) > h3:nth-child(2) {
+        position: absolute;
+        font-size: 13px;
+        top: 293px;
+        left: 44px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(4) > div:nth-child(1) {
+        position: absolute;
+        background-image: url("../../assets/img/Rectangle 29.png");
+        width: 91px;
+        height: 57px;
+        background-size: cover;
+        background-position: center;
+        top: 69px;
+        left: 207px;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(4) > div:nth-child(2) > h3:nth-child(1) {
+        font-size: 13px;
+        top: 160px;
+        left: 212px;
+        color: #FFFFFF;
+        width: 148px;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(4) > div:nth-child(2) > h3:nth-child(2) {
+        font-size: 13px;
+        top: 203px;
+        left: 211px;
+        color: #FFFFFF;
+    }
+
+    main > section:nth-child(4) > aside:nth-child(4) > div:nth-child(3) {
+        background-image: url("../../assets/img/My project (47).png");
+        width: 99px;
+        height: 54px;
+        background-size: cover;
+        background-position: center;
+        top: 263px;
+        left: 188px;
+    }
+}
