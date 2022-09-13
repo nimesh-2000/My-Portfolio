@@ -285,7 +285,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
 @media all and (min-width: 321px) and (max-width: 376px){
     main>section:nth-child(6){
         background-color: #2F3542;
-        height: 600px;
+        height: 460px;
         width:98.9vw;
         top: -17px;
     }
