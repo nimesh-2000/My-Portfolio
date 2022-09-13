@@ -281,3 +281,144 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         font-size: 10px;
     }
 }
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    main>section:nth-child(6){
+        background-color: #2F3542;
+        height: 600px;
+        width:98.9vw;
+        top: 0px;
+    }
+    main>section:nth-child(6)>section:nth-child(1)>h1{
+        top: -5px;
+        left: 114px;
+        font-size: 18px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(6)>section:nth-child(1)>h3:nth-child(2){
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 10px;
+        color: white;
+    }
+    main>section:nth-child(6)>section:nth-child(1)>h3:nth-child(3){
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        font-size: 10px;
+        color: #00D2D3;
+    }
+    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
+        position: absolute;
+        background-image: url("../../assets/img/p1.png");
+        /*font-size: 25px;*/
+        width: 60px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 98px;
+        left: 43px;
+    }
+    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+        position: absolute;
+        background-image: url("../../assets/img/p3.jpg");
+        /*font-size: 25px;*/
+        width: 60px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 98px;
+        left: 209px;
+    }
+    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
+        position: absolute;
+        background-image: url("../../assets/img/p2.jpg");
+        /*font-size: 25px;*/
+        width: 70px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 88px;
+        left: 122px;
+    }
+    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
+        position: absolute;
+        background-color: #00D2D3;
+        /*font-size: 25px;*/
+        width: 70px;
+        height: 103px;
+        opacity: 0.6;
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*border: 5px solid #00D2D3;*/
+        top: 89px;
+        left: 124px;
+    }
+    main>section:nth-child(6)>section:nth-child(3)>button{
+        left: 246px;
+        top: 192px;
+        background-color: #2F3542;
+        border: 2px solid #00D2D3;
+        color: #FFFFFF;
+        width: 54px;
+        height: 22px;
+        font-size: 10px;
+    }
+    main>section:nth-child(6)>section:nth-child(4)>h3{
+        position: absolute;
+        top: 228px;
+        left: 31px;
+        font-size: 10px;
+        color: #00D2D3;
+    }
+    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+        background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
+        /*font-size: 25px;*/
+        width: 60px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 42px;
+    }
+    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+        background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
+        /*font-size: 25px;*/
+        width: 60px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 115px;
+    }
+    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+        position: absolute;
+        background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
+        /*font-size: 25px;*/
+        width: 60px;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #00D2D3;
+        top: 268px;
+        left: 188px;
+    }
+    main>section:nth-child(6)>section:nth-child(6)>button{
+        left: 246px;
+        top: 362px;
+        background-color: #2F3542;
+        border: 2px solid #00D2D3;
+        color: #FFFFFF;
+        width: 54px;
+        height: 22px;
+        font-size: 10px;
+    }
+}

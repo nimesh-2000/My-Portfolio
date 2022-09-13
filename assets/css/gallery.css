@@ -163,7 +163,7 @@ main>section:nth-child(2)>section:nth-child(3)>h3{
 @media all and (min-width: 321px) and (max-width: 376px){
     main>section:nth-child(2){
         background-color: #2F3542;
-        height: 600px;
+        height: 523px;
         width:98.9vw ;
         top: 0px;
     }
