@@ -456,76 +456,77 @@ main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>p:nth-child(
 @media all and (min-width: 427px) and (max-width: 769px){
     main>section:nth-child(7){
         background-color: #1E272E;
-        height: 825px;
+        height: 1000px;
         width: 98.9vw;
         top: -17px;
     }
     main>section:nth-child(7)>section:nth-child(1)>h1{
+
         top: -5px;
-        left: 120px;
-        font-size: 18px;
+        left: 287px;
+        font-size: 23px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: #00D2D3;
     }
     main>section:nth-child(7)>section:nth-child(1)>h3{
-        top: 20px;
-        left: 30px;
-        font-size: 16px;
+        top: 36px;
+        left: 77px;
+        font-size: 20px;
         color: white;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(1){
         /* font-size: 25px; */
-        width: 180px;
-        height: 230px;
+        width: 202px;
+        height: 264px;
         background-color: #2F3542;
-        top: 69px;
-        left: 95px;
+        top: 107px;
+        left: 259px;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(1){
-        font-size: 16px;
+        font-size: 18px;
         top: -7px;
         left: 8px;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(2){
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
         top: 10px;
-        left: 0px;
+        left: -3px;
         color: #00D2D3;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(1)>p:nth-child(3){
         position: absolute;
-        font-size: 14px;
-        width: 146px;
+        font-size: 16px;
+        width: 182px;
         text-align: left;
-        top: 53px;
+        top: 61px;
         left: 19px;
         color: white;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(3)>h3:nth-child(1){
         position: absolute;
-        font-size: 16px;
+        font-size: 18px;
         top: -8px;
         left: 8px;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(3){
-        width: 180px;
-        height: 230px;
+        width: 202px;
+        height: 264px;
         background-color: #2F3542;
-        top: 555px;
-        left: 95px;
+        top: 680px;
+        left: 259px;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(3)>h3:nth-child(2){
-        font-size: 16px;
-        top: 8px;
-        left: 19px;
+        font-size: 18px;
+        top: 15px;
+        left: 9px;
         color: #00D2D3;
     }
     main>section:nth-child(7)>section:nth-child(2)>aside:nth-child(3)>p:nth-child(3){
         position: absolute;
-        font-size: 14px;
-        width: 154px;
+        font-size: 16px;
+        width: 176px;
         text-align: left;
         top: 53px;
         left: 19px;
@@ -533,22 +534,22 @@ main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>p:nth-child(
     }
     main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2){
         position: absolute;
-        /*font-size: 25px;*/
-        width: 180px;
-        height: 230px;
+        /* font-size: 25px; */
+        width: 202px;
+        height: 264px;
         background-color: #00D2D3;
-        top: 311px;
-        left: 95px;
+        top: 391px;
+        left: 259px;
     }
     main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>h3:nth-child(1){
         position: absolute;
-        font-size: 16px;
+        font-size: 18px;
         top: -8px;
         left: 10px;
     }
     main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>h3:nth-child(2){
         position: absolute;
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
         top: 12px;
         left: 34px;
@@ -556,8 +557,8 @@ main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>p:nth-child(
     }
     main>section:nth-child(7)>section:nth-child(2)>section:nth-child(2)>p:nth-child(3){
         position: absolute;
-        font-size: 14px;
-        width: 139px;
+        font-size: 16px;
+        width: 164px;
         text-align: left;
         top: 56px;
         left: 19px;
