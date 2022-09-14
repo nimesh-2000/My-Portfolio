@@ -566,140 +566,143 @@ main>section:nth-child(6)>section:nth-child(6)>button{
 @media all and (min-width: 427px) and (max-width: 769px){
     main>section:nth-child(6){
         background-color: #2F3542;
-        height: 460px;
+        height: 635px;
         width:98.9vw;
         top: -17px;
     }
     main>section:nth-child(6)>section:nth-child(1)>h1{
         top: -5px;
-        left: 114px;
-        font-size: 18px;
+        left: 311px;
+        font-size: 23px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: #00D2D3;
+
     }
     main>section:nth-child(6)>section:nth-child(1)>h3:nth-child(2){
         position: absolute;
-        top: 20px;
-        left: 30px;
-        font-size: 16px;
+        top: 31px;
+        left: 89px;
+        font-size: 20px;
         color: white;
+
     }
     main>section:nth-child(6)>section:nth-child(1)>h3:nth-child(3){
         position: absolute;
-        top: 40px;
-        left: 30px;
-        font-size: 16px;
+        top: 58px;
+        left: 89px;
+        font-size: 20px;
         color: #00D2D3;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(1){
         position: absolute;
         background-image: url("../../assets/img/p1.png");
         /*font-size: 25px;*/
-        width: 70px;
-        height: 90px;
+        width: 119px;
+        height: 161px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 98px;
-        left: 64px;
+        top: 113px;
+        left: 191px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
         position: absolute;
         background-image: url("../../assets/img/p3.jpg");
         /*font-size: 25px;*/
-        width: 70px;
-        height: 90px;
+        width: 119px;
+        height: 161px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 98px;
-        left: 240px;
+        top: 113px;
+        left: 485px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
         position: absolute;
         background-image: url("../../assets/img/p2.jpg");
         /*font-size: 25px;*/
-        width: 80px;
-        height: 110px;
+        width: 128px;
+        height: 178px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 88px;
-        left: 147px;
+        top: 104px;
+        left: 332px;
     }
     main>section:nth-child(6)>section:nth-child(2)>div:nth-child(4){
         position: absolute;
         background-color: #00D2D3;
-        /*font-size: 25px;*/
-        width: 80px;
-        height: 113px;
+        /* font-size: 25px; */
+        width: 129px;
+        height: 177px;
         opacity: 0.6;
-        /*background-size: cover;*/
-        /*background-position: center;*/
-        /*border: 5px solid #00D2D3;*/
-        top: 89px;
-        left: 149px;
+        /* background-size: cover; */
+        /* background-position: center; */
+        /* border: 5px solid #00D2D3; */
+        top: 106px;
+        left: 333px;
     }
+
     main>section:nth-child(6)>section:nth-child(3)>button{
-        left: 279px;
-        top: 200px;
+        left: 562px;
+        top: 297px;
         background-color: #2F3542;
         border: 2px solid #00D2D3;
         color: #FFFFFF;
-        width: 73px;
-        height: 28px;
-        font-size: 11px;
+        width: 96px;
+        height: 36px;
+        font-size: 15px;
     }
     main>section:nth-child(6)>section:nth-child(4)>h3{
         position: absolute;
-        top: 228px;
-        left: 31px;
-        font-size: 16px;
+        top: 344px;
+        left: 91px;
+        font-size: 20px;
         color: #00D2D3;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
-        width: 70px;
-        height: 90px;
+        width: 106px;
+        height: 151px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 277px;
-        left: 60px;
+        top: 400px;
+        left: 200px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
-        width: 70px;
-        height: 90px;
+        width: 106px;
+        height: 151px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 277px;
-        left: 147px;
+        top: 400px;
+        left: 331px;
     }
     main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
-        width: 70px;
-        height: 90px;
+        width: 106px;
+        height: 151px;
         background-size: cover;
         background-position: center;
         border: 2px solid #00D2D3;
-        top: 277px;
-        left: 231px;
+        top: 400px;
+        left: 462px;
     }
     main>section:nth-child(6)>section:nth-child(6)>button{
-        left: 279px;
-        top: 380px;
+        left: 562px;
+        top: 574px;
         background-color: #2F3542;
         border: 2px solid #00D2D3;
         color: #FFFFFF;
-        width: 73px;
-        height: 28px;
-        font-size: 11px;
+        width: 96px;
+        height: 36px;
+        font-size: 15px;
     }
 }
