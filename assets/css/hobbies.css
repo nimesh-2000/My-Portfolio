@@ -264,4 +264,71 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(5){
         order: 5;
     }
 }
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 427px) and (max-width: 769px){
+    main>section:nth-child(5){
+        background-color:#1E272E;
+        height: 110px;
+        width:98.9vw ;
+        top: -17px;
+        position: relative;
+    }
+    main>section:nth-child(5)>section:nth-child(1)>h1{
+        top: -8px;
+        left: 137px;
+        font-size: 20px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(5)>section:nth-child(2){
+        height: 115px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        left: 30px;
+    }
+    main>section:nth-child(5)>section:nth-child(2)>div:nth-child(1){
+        height: 60px;
+        width: 91px;
+        background-image: url("../../assets/img/My project (49).png");
+        background-size: cover;
+        background-position: center;
+        order: 1;
+    }
+    main>section:nth-child(5)>section:nth-child(2)>div:nth-child(2){
+        height: 60px;
+        width: 80px;
+        background-image: url("../../assets/img/My project (50).png");
+        background-size: cover;
+        background-position: center;
+        order: 2;
+    }
+    main>section:nth-child(5)>section:nth-child(2)>div:nth-child(3){
+        height: 60px;
+        width: 80px;
+        background-image: url("../../assets/img/My project (51).png");
+        background-size: cover;
+        background-position: center;
+        order: 3;
+    }
+    main>section:nth-child(5)>section:nth-child(2)>div:nth-child(4){
+        height: 60px;
+        width: 80px;
+        background-image: url("../../assets/img/My project (52).png");
+        background-size: cover;
+        background-position: center;
+        order: 4;
+    }
+    main>section:nth-child(5)>section:nth-child(2)>div:nth-child(5){
+        height: 60px;
+        width: 80px;
+        background-image: url("../../assets/img/My project (53).png");
+        background-size: cover;
+        background-position: center;
+        order: 5;
+    }
+}
 
