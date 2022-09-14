@@ -546,15 +546,15 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
 @media all and (min-width: 427px) and (max-width: 769px){
     main>section:nth-child(8){
         background-color: #2F3542;
-        height: 506px;
+        height: 600px;
         width:98.9vw;
         top: -17px;
         position: relative;
     }
     main>section:nth-child(8)>section:nth-child(1)>h1{
         top: -5px;
-        left: 120px;
-        font-size: 18px;
+        left: 305px;
+        font-size: 23px;
         font-family: 'Poppins', Inter;
         font-weight: bold;
         color: #00D2D3;
@@ -562,16 +562,16 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
     main>section:nth-child(8)>section:nth-child(1)>h3{
         position: absolute;
         top: 26px;
-        left: 19px;
-        font-size: 16px;
+        left: 46px;
+        font-size: 20px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>div:nth-child(6){
         background-image: url("../../assets/img/My project (80).png");
         background-position: center;
         background-size:cover;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         top: 62px;
         left: 20px;
     }
@@ -579,9 +579,9 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         background-image: url("../../assets/img/My project (78).png");
         background-position: center;
         background-size: cover;
-        width: 60px;
-        height: 60px;
-        top: 107px;
+        width: 80px;
+        height: 80px;
+        top: 121px;
         left: 20px;
     }
 
@@ -589,54 +589,54 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         background-image: url("../../assets/img/My project (79).png");
         background-position: center;
         background-size: cover;
-        width: 60px;
-        height: 60px;
-        top: 148px;
+        width: 80px;
+        height: 80px;
+        top: 179px;
         left: 20px;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>div:nth-child(9){
         background-image: url("../../assets/img/My project (77).png");
         background-position: center;
         background-size: cover;
-        width: 60px;
-        height: 60px;
-        top: 195px;
+        width: 80px;
+        height: 80px;
+        top: 236px;
         left: 20px;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(1){
         top: 81px;
         left: 93px;
-        font-size: 14px;
+        font-size: 18px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(2){
-        top: 121px;
+        top: 136px;
         left: 93px;
-        font-size: 14px;
+        font-size: 18px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(3){
-        top: 161px;
+        top: 190px;
         left: 93px;
-        font-size: 14px;
+        font-size: 18px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(4){
-        top: 173px;
+        top: 207px;
         left: 93px;
-        font-size: 14px;
+        font-size: 18px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(1)>h3:nth-child(5){
-        top: 213px;
+        top: 256px;
         left: 93px;
-        font-size: 14px;
+        font-size: 18px;
         color: white;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child(1){
-        left: 34px;
-        top: 274px;
-        width: 241px;
+        left: 89px;
+        top: 339px;
+        width: 280px;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child(1)>input:nth-child(1){
         position: absolute;
@@ -644,7 +644,7 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         top: -12px;
         background: #2F3542;
         color: #FFFFFF;
-        width: 286px;
+        width: 300px;
         height: 19px;
         border:1px solid #00D2D3;
     }
@@ -653,7 +653,7 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         top: 30px;
         background: #2F3542;
         color: #FFFFFF;
-        width: 286px;
+        width: 300px;
         height: 19px;
         border: 1px solid #00D2D3;
     }
@@ -662,17 +662,17 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         top: 70px;
         background: #2F3542;
         color: #FFFFFF;
-        width: 286px;
+        width: 300px;
         height: 95px;
         border: 1px solid #00D2D3;
     }
     main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child(1)>button:nth-child(4){
-        left: 193px;
+        left: 200px;
         top: 178px;
         background: #00D2D3;
         color: #FFFFFF;
-        width: 103px;
-        height: 24px;
-        font-size: 10px;
+        width: 109px;
+        height: 27px;
+        font-size: 12px;
     }
 }
