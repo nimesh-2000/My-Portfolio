@@ -664,3 +664,13 @@ main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth
         /*font-weight: lighter;*/
     }
 }
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(1){
+        background-color: #1E272E;
+        height: 650px;
+        width:98.9vw ;
+        top: 0px;
+        position: relative;
+    }
+}
