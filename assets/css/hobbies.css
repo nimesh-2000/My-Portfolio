@@ -331,4 +331,32 @@ main>section:nth-child(5)>section:nth-child(2)>div:nth-child(5){
         order: 5;
     }
 }
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(5) {
+        background-color: #1E272E;
+        height: 300px;
+        width: 98.9vw;
+        top: -60px;
+        position: relative;
+    }
+    main>section:nth-child(5)>section:nth-child(1)>h1 {
+        position: absolute;
+        top: -12px;
+        left: 449px;
+        font-size: 30px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(5)>section:nth-child(2) {
+        height: 300px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 941px;
+        left: 19px;
+    }
+}
 

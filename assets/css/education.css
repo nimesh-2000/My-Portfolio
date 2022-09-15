@@ -1209,3 +1209,239 @@ main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(3){
         left: 379px;
     }
 }
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(4)>section:nth-child(1)>h1 {
+        position: absolute;
+        top: -13px;
+        left: 459px;
+        font-size: 30px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(4) {
+        background-color: #2F3542;
+        height: 850px;
+        width: 98.9vw;
+        top: -60px;
+        position: relative;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(1) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 5.png");
+        /* font-size: 25px; */
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        top: 68px;
+        left: 524px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(2) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 3px;
+        height: 85px;
+        background-size: cover;
+        background-position: center;
+        top: 117px;
+        left: 547px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(3) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 35px;
+        height: 35px;
+        background-size: cover;
+        background-position: center;
+        top: 200px;
+        left: 531px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(4) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        top: 208px;
+        left: 538px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(5) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 3px;
+        height: 168px;
+        background-size: cover;
+        background-position: center;
+        top: 233px;
+        left: 547px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(6) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 35px;
+        height: 35px;
+        background-size: cover;
+        background-position: center;
+        top: 400px;
+        left: 531px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(7) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        top: 408px;
+        left: 538px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(8) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 3px;
+        height: 168px;
+        background-size: cover;
+        background-position: center;
+        top: 433px;
+        left: 547px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(9) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 4.png");
+        /* font-size: 25px; */
+        width: 35px;
+        height: 35px;
+        background-size: cover;
+        background-position: center;
+        top: 600px;
+        left: 531px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(10) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        top: 608px;
+        left: 538px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(11) {
+        position: absolute;
+        background-image: url("../../assets/img/Line 4.png");
+        /* font-size: 25px; */
+        width: 3px;
+        height: 85px;
+        background-size: cover;
+        background-position: center;
+        top: 633px;
+        left: 547px;
+    }
+    main>section:nth-child(4)>section:nth-child(3)>div:nth-child(12) {
+        position: absolute;
+        background-image: url("../../assets/img/Ellipse 8.png");
+        /* font-size: 25px; */
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-position: center;
+        top: 716px;
+        left: 539px;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(1)>h3:nth-child(2) {
+        position: absolute;
+        font-size: 25px;
+        top: 182px;
+        left: 118px;
+        color: #FFFFFF;
+        width: 360px;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(1)>h3:nth-child(1) {
+        position: absolute;
+        font-size: 25px;
+        top: 160px;
+        left: 250px;
+        color: #FFFFFF;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(1)>h3:nth-child(3) {
+        position: absolute;
+        font-size: 25px;
+        top: 235px;
+        left: 196px;
+        color: #FFFFFF;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(2) {
+        position: absolute;
+        background-image: url("../../assets/img/Kalutara_Vidyalaya_logo.png");
+        /* font-size: 25px; */
+        width: 87px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        top: 371px;
+        left: 368px;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(3)>h3:nth-child(1) {
+        position: absolute;
+        font-size: 25px;
+        top: 580px;
+        left: 176px;
+        color: #FFFFFF;
+        width: 350px;
+    }
+    main>section:nth-child(4)>aside:nth-child(2)>div:nth-child(3)>h3:nth-child(2) {
+        position: absolute;
+        font-size: 25px;
+        top: 629px;
+        left: 241px;
+        color: #FFFFFF;
+    }
+    main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(1) {
+        position: absolute;
+        background-image: url("../../assets/img/Rectangle 29.png");
+        /* font-size: 25px; */
+        width: 160px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        top: 169px;
+        left: 630px;
+    }
+    main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(2)>h3:nth-child(1) {
+        position: absolute;
+        font-size: 25px;
+        top: 367px;
+        left: 644px;
+        color: #FFFFFF;
+        width: 300px;
+    }
+    main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(2)>h3:nth-child(2) {
+        position: absolute;
+        font-size: 25px;
+        top: 418px;
+        left: 645px;
+        color: #FFFFFF;
+    }
+    main>section:nth-child(4)>aside:nth-child(4)>div:nth-child(3) {
+        position: absolute;
+        background-image: url("../../assets/img/My project (47).png");
+        /* font-size: 25px; */
+        width: 206px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        top: 579px;
+        left: 585px;
+    }
+}
