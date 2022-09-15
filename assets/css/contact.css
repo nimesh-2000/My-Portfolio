@@ -676,3 +676,21 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
         font-size: 12px;
     }
 }
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(8)>section:nth-child(1)>h1 {
+        position: absolute;
+        top: -11px;
+        left: 453px;
+        font-size: 30px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child(1) {
+        position: absolute;
+        left: 550px;
+        top: 156px;
+        width: 541px;
+    }
+}
