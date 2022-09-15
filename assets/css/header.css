@@ -549,9 +549,9 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
     header > section > section:nth-child(1) > nav {
         top: -5px;
         right: 0;
-        left: 346px;
+        left: 337px;
         height: 30px;
-        width: 98.9vw;
+        width: 54.900000000000006vw;
     }
 
     header > section > section > nav > ul > li {
@@ -562,7 +562,7 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
     }
 
     header > section > section > nav > ul {
-        width: 98.9vw;
+       width:  59.900000000000006vw;
     }
 
     /*icons */

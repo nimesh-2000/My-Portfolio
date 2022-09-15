@@ -414,10 +414,10 @@ main>section:nth-child(2)>section:nth-child(3)>h3{
         width: 63.900000000000006vw;
         height: 665px;
         display: grid;
-        left: 0;
+        left: 189px;
         right: 0;
         top: 60px;
-        margin: auto;
+        margin: 0;
         grid-template-rows: repeat(2,1fr);
         grid-template-columns: repeat(3,1fr);
         gap: 20px;

@@ -673,4 +673,37 @@ main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h3:nth
         top: 0px;
         position: relative;
     }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(10) {
+        top: 436px;
+        left: 463px;
+        width: 300px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(8) {
+        top: 403px;
+        left: 479px;
+        width: 467px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(6) {
+        top: 368px;
+        left: 521px;
+        width: 300px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(4) {
+        top: 331px;
+        left: 536px;
+        width: 300px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4:nth-child(2) {
+        top: 292px;
+        left: 442px;
+        width: 350px;
+    }
+    main>section>section:nth-child(2)>aside:nth-child(2)>address:nth-child(2)>h4 {
+        color: white;
+        width: 430px;
+        height: 27px;
+        font-size: 20px;
+        position: absolute;
+    }
+
 }
