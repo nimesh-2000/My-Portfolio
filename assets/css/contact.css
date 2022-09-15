@@ -678,6 +678,13 @@ main>section:nth-child(8)>section:nth-child(2)>aside:nth-child(2)>form:nth-child
 }
 /*================================== 1024->Laptop ================================== */
 @media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(8) {
+        background-color: #2F3542;
+        height: 650px;
+        width: 98.9vw;
+        top: -127px;
+        position: relative;
+    }
     main>section:nth-child(8)>section:nth-child(1)>h1 {
         position: absolute;
         top: -11px;

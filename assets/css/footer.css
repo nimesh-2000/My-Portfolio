@@ -562,4 +562,8 @@ footer>address>small:nth-child(3){
         font-weight: bold;
         color: white;
     }
+    /*================================== 1024->Laptop ================================== */
+    @media all and (min-width: 770px) and (max-width: 1025px){
+
+    }
 }
