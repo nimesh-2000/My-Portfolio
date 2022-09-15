@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 body{
     margin: 0;
 }
@@ -75,6 +77,7 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h1:nth-child(1){
     left: 30px;
     font-size: 60px;
     color: white;
+    font-family: 'Inter', sans-serif;
     /*font-family: 'Poppins', Inter;*/
 }
 header>section>section:nth-child(2)>section:nth-child(3)>div>h1:nth-child(2){
@@ -84,6 +87,7 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h1:nth-child(2){
     left: 30px;
     font-size: 50px;
     color: white;
+    font-family: 'Inter', sans-serif;
     /*font-family: 'Poppins', Inter;*/
 }
 header>section>section:nth-child(2)>section:nth-child(3)>div>h1:nth-child(3){
@@ -103,6 +107,7 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
     left: 30px;
     font-size: 30px;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 /*================================== 320->Mobile -S ==================================*/
 @media all and (max-width: 320px){

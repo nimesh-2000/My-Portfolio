@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 main>section:nth-child(3){
     background-color:#1E272E;
     height: 650px;
@@ -20,6 +22,7 @@ main>section:nth-child(3)>section:nth-child(2)>h4{
     left: 60px;
     font-size: 20px;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 main>section:nth-child(3)>section:nth-child(3){
     height: 300px;
@@ -37,6 +40,7 @@ main>section:nth-child(3)>section:nth-child(4){
     width: 819px;
     top: 188px;
     left: 31px;
+    font-family: 'Inter', sans-serif;
 }
 main>section:nth-child(3)>section:nth-child(3)>img:nth-child(1){
     height: 120px;
@@ -119,6 +123,7 @@ main>section:nth-child(3)>section:nth-child(5)>h4{
     left: 60px;
     font-size: 20px;
     color: white;
+    font-family: 'Inter', sans-serif;
 }
 main>section:nth-child(3)>section:nth-child(6){
     position: absolute;
@@ -167,6 +172,7 @@ main>section:nth-child(3)>section:nth-child(7){
     width: 523px;
     top: 445px;
     left: 31px;
+    font-family: 'Inter', sans-serif;
 }
 main>section:nth-child(3)>section:nth-child(7)>h4:nth-child(1){
     font-size: 15px;
