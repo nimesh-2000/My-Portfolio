@@ -398,4 +398,29 @@ main>section:nth-child(2)>section:nth-child(3)>h3{
         text-decoration: underline;
     }
 }
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 770px) and (max-width: 1025px){
+    main>section:nth-child(2)>section:nth-child(1)>h1{
+        position: absolute;
+        top: -13px;
+        left: 443px;
+        font-size: 30px;
+        font-family: 'Poppins', Inter;
+        font-weight: bold;
+        color: #00D2D3;
+    }
+    main>section:nth-child(2)>section:nth-child(2) {
+        position: absolute;
+        width: 63.900000000000006vw;
+        height: 665px;
+        display: grid;
+        left: 0;
+        right: 0;
+        top: 60px;
+        margin: auto;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+}
 
