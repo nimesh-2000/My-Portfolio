@@ -704,6 +704,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         width: 96px;
         height: 36px;
         font-size: 15px;
+
     }
 }
 /*================================== 1024->Laptop ================================== */
@@ -825,4 +826,25 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         width: 139px;
         height: 44px;
     }
+}
+.btn:hover {
+
+    /*!*Button*!*/
+    background-color: #BA903A;
+    border: 2px solid #192F35;
+    /*border-radius: 10px;*/
+    width: 139px;
+    height: 44px;
+    /*display: inline-block;*/
+
+    /*!*Text*!*/
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(223, 233, 245, 0.4), 0 17px 50px 0 rgba(223, 233, 245, 0.4);
 }
