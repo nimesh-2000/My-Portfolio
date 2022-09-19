@@ -16,7 +16,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
         body{
-            height: 100vh;
             background-color: #95AFC0;
             /*overflow-x: hidden;*/
         }
@@ -54,7 +53,6 @@
         section {
             /*margin-left: 100px;*/
             /*width: 100%;*/
-            height: 600px;
             background-color: #F5F6FA;
         }
 
@@ -285,16 +283,181 @@
                 <!--            </div>-->
 
             </div>
+        </div>
+
     </section>
 
+    <!--    =============================Items=====================================-->
 
+    <br>
+    <br>
+    <div class="col mb-3" style="background-color: #DFE6E9">
+        <i class="fa-solid fa-boxes-stacked fa-xl"></i>
+        <!--            <img style="top: 5rem" src="../../../../assests/images/customer%202.png" alt="Logo" width="60" height="60">-->
+        <h3 class=" ms-2" style="color: #192A56;font-family: 'Gelasio', serif; display: inline-block">Item</h3>
+    </div>
+
+    <section class="row align-self-start shadow p-3 mb-5 bg-body rounded">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-6 col-xxl-6 bg-#DFF9FB ">
+            <div class="d-inline-flex p-2" style="background-color: #144A81; color: white; width: 12rem;
+                   margin-top: 1.5rem; font-family: 'Inter', sans-serif;">Item Search</div>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Input ID/Name Here" aria-label="Search"
+                       style="margin-top: 1rem; font-family: 'Inter', sans-serif;">
+            </form>
+
+            <button type="button" class="btn btn-success"  style="margin-top: 1rem;
+                 font-family: 'Inter', sans-serif;">Search</button>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="margin-top: 1rem; background-color: white; color: black; border: 1px solid black;
+                        font-family: 'Inter', sans-serif;">
+                    Name
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cake</a></li>
+                    <li><a class="dropdown-item" href="#">Buiscut</a></li>
+                    <li><a class="dropdown-item" href="#">Banana</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Milk</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-group2" id="item" role="group" aria-label="Basic mixed styles example" style="margin-top: 1rem">
+                <button type="button" class="btn btn-danger" style="background-color: #E74C3C; color: white;
+                              font-family: 'Inter', sans-serif;">Delete</button>
+                <button type="button" class="btn btn-warning" style="background-color: #0F6B59; color: white;
+                              font-family: 'Inter', sans-serif;">Update</button>
+                <button type="button" class="btn btn-success" style="background-color: #6F1E51; color: white;
+                              font-family: 'Inter', sans-serif;">Clear</button>
+            </div>
+        </div>
+
+        <!--    =============add Item and view===========-->
+
+        <!--        add customer-->
+        <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-6 col-xxl-6 bg-#DFF9FB justify-content-end mt-4" style="align-items: end">
+            <!--             <div class="row mt-4" style=" width: 40%">-->
+            <!--            <button class="btn btn-primary" data-bs-target="#addItemModal" data-bs-toggle="modal" type="button"-->
+            <!--                    style="background-color: #0F6B59; color: white;  font-family: 'Inter', sans-serif;">-->
+            <!--                +New Item-->
+            <!--            </button>-->
+
+            <!--Button-->
+            <button class="btn btn-primary mt-4 d-grid  col-6 col-md-12 col-sm-6 mx-auto"
+                    data-bs-target="#addItemModal"
+                    data-bs-toggle="modal"
+                    type="button" style="background-color: #0F6B59; color: white;  font-family: 'Inter', sans-serif; width: 10rem">+New Item
+            </button>
+
+            <!--            <button class="btn btn-primary" data-bs-target="#addItemModal" data-bs-toggle="modal" type="button"-->
+            <!--                    style="background-color: #0F6B59; color: white;  font-family: 'Inter', sans-serif;">-->
+            <!--                +New Item-->
+            <!--            </button>-->
+
+            <!-- Modal -->
+            <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="addItemModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: #144A81">
+                            <h5 class="modal-title" id="exampleMo" style="color: white">New Item</h5>
+                            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section style="height: 25rem; border: 1px solid white; background-color: white">
+                                <div class="mb-3">
+                                    <label class="form-label" for="formFile1">Item ID</label>
+                                    <input class="form-control" id="formFile1" type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="formFileMultiple1">Item Name</label>
+                                    <input class="form-control" id="formFileMultiple1" multiple type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="formFileDisabled1">Item Price</label>
+                                    <input class="form-control" id="formFileDisabled1" type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="formFileLi1">Item Quantity</label>
+                                    <input class="form-control form-control-sm" id="formFileLi1" type="text">
+                                </div>
+
+                                <div aria-label="Basic mixed styles example" class="btn-group" role="group">
+                                    <button class="btn btn-danger" type="button">Save</button>
+                                    <button class="btn btn-warning" type="button">Renew</button>
+                                    <button class="btn btn-success" type="button">Close</button>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <button type="button" class="btn mt-0" style="background-color: #F3BF06; color: black;
+                              font-family: 'Inter', sans-serif;">View All Items</button>
+        </div>
+
+        </div>
+
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-#DFF9FB">
+
+            <!--All Items Details Table-->
+            <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar ms">
+                <table class="table table-hover table-borderless table-striped" style="border: 1px solid black">
+                    <thead class="text-light " style="background-color: #34495E; border: 1px solid black">
+                    <tr>
+                        <th scope="col" style="border: 1px solid black">Item ID</th>
+                        <th scope="col" style="border: 1px solid black">Item Name</th>
+                        <th scope="col" style="border: 1px solid black">Price</th>
+                        <th scope="col" style="border: 1px solid black">Quantity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Cake</td>
+                        <td>600</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Soap</td>
+                        <td>100</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Butter</td>
+                        <td>400</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Buiscut</td>
+                        <td>200</td>
+                        <td>400</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
 
 
 
 </main>
 
 
-<script src="../../../../assignments/CSS/Frameworks/asserts/bootstrap/js/bootstrap.min.js"></script>
+
 
 </body>
+<script src="../../../../assignments/CSS/Frameworks/asserts/bootstrap/js/bootstrap.min.js"></script>
 </html>
