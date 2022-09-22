@@ -62,16 +62,16 @@
             <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-relative " style="right: -40vw">
                     <li class="nav-item">
-                        <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                        <a aria-current="page" class="nav-link active" id="h" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../assignments/CSS/Framework/Pos/pages/customer.html">Customers</a>
+                        <a class="nav-link"id="c" href="#">Customers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../assignments/CSS/Framework/Pos/pages/item.html">Items</a>
+                        <a class="nav-link"id="i" href="#">Items</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../assignments/CSS/Framework/Pos/pages/order.html">Orders</a>
+                        <a class="nav-link"id="o" href="#">Orders</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
@@ -148,7 +148,7 @@
     </div>
 
 </main>
-<main class="container">
+<main class="container"id="cForm">
     <br>
     <div class="col">
         <i class="fa-solid fa-users fa-xl"></i>
@@ -314,7 +314,7 @@
 </main>
 <!--=======================================================================================================================================================================-->
 
-<main class="container">
+<main class="container"id="iForm">
     <br>
     <div class="col">
         <i class="fa-solid fa-boxes-stacked fa-xl"></i>
@@ -477,7 +477,7 @@
 </main>
 <!--=====================================================================================================================================================================-->
 
-<main class="container position-relative">
+<main class="container position-relative"id="oForm">
     <!--Place Order Title-->
     <div class="col">
         <i class="fa-solid fa-chart-line"></i>
@@ -700,6 +700,40 @@
     </section>
 
 </main>
+
+<script src="assets/jquery-3.6.1.min.js"></script> <!--import jQuery library-->
+<script>
+    $("#cForm").css('display','none');
+    $("#iForm").css('display','none');
+    $("#oForm").css('display','none');
+    $("#h").click(function(){
+        $("#cForm").css('display','none');
+        $("#iForm").css('display','none');
+        $("#oForm").css('display','none');
+        $("#dashboardContent").css('display','block');
+    });
+
+    $("#i").click(function(){
+        $("#cForm").css('display','none');
+        $("#iForm").css('display','block');
+        $("#oForm").css('display','none');
+        $("#dashboardContent").css('display','none');
+    });
+
+    $("#o").click(function(){
+        $("#cForm").css('display','none');
+        $("#iForm").css('display','none');
+        $("#oForm").css('display','block');
+        $("#dashboardContent").css('display','none');
+    });
+
+    $("#c").click(function(){
+        $("#cForm").css('display','block');
+        $("#iForm").css('display','none');
+        $("#oForm").css('display','none');
+        $("#dashboardContent").css('display','none');
+    });
+</script>
 </body>
 <script src="../../../assignments/CSS/Framework/assest/js/bootstrap.min.js"></script>
 </html>
