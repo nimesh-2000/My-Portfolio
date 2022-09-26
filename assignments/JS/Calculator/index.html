@@ -16,7 +16,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-
+        #btn4:hover{
+            background-color:red ;
+        }
+        /*#btn1,#btn3,#btn2,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btnequal,#btn0,#btnMinus,#btnMuli,#btnAddition,*/
     </style>
 </head>
 <body>
@@ -24,10 +27,10 @@
 <main class="container-fluid row justify-content-center align-items-center mx-0 px-0 pt-5">
 
 
-    <section class="col-12 col-sm-8 col-md-7 col-lg-5 col-xl-4 rounded-4" style="border: 1px solid black;background-color: #6a89cc;">
-        <div class="row gx-4 mt-4 mx-2">
+    <section class="col-12 col-sm-8 col-md-7 col-lg-5 col-xl-4 rounded-4" style="background-color: darkgray;">
+        <div class="row gx-2 mt-4 mx-2">
             <div class="col-3 ">
-                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnClear" style="background-color: #fad390;cursor: pointer;
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnClear" style="background-color: whitesmoke;cursor: pointer;
                 width:4rem; height: 75%">
                     <h2 class="pt-2 pb-4 text-center">C</h2>
                 </div>
@@ -35,13 +38,13 @@
 
 
             <div class="col-9 ">
-                <div class="d-flex justify-content-end rounded-3 shadow-lg" id="finalResultDiv" style="background-color: #41464b; height: 75%">
+                <div class="d-flex justify-content-end rounded-3 shadow-lg " id="finalResultDiv" style="background-color: whitesmoke;font-size: xxx-large; height: 75%">
                     <!--                <h1 class="pt-3 pb-3 px-4" id="finalResult" style="color: white">0</h1>-->
                 </div>
             </div>
         </div>
         <!--    ==============7 - (+) butons==========-->
-        <div class="row gx-4 mt-1 mx-2">
+        <div class="row gx-2 mt-1 mx-2">
             <div class="col-3">
                 <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn7" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%; ">
@@ -71,7 +74,7 @@
         </div>
 
         <!--    ==============4 - (-) butons==========-->
-        <div class="row gx-4 mt-1 mx-2">
+        <div class="row gx-2 mt-1 mx-2">
             <div class="col-3">
                 <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn4" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
@@ -101,7 +104,7 @@
         </div>
 
         <!--    ==============1 - (/) butons==========-->
-        <div class="row gx-4 mt-1 mx-2">
+        <div class="row gx-2 mt-1 mx-2">
             <div class="col-3">
                 <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn1" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
@@ -109,7 +112,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn2" style="background-color: whitesmoke;cursor: pointer;
+                <div class="rounded-3 d-flex justify-content-center shadow-lg " id="btn2" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
                     <h2 class="pt-2 pb-4 text-center">2</h2>
                 </div>
@@ -131,7 +134,7 @@
         </div>
 
         <!--    ==============0- (*) butons==========-->
-        <div class="row gx-4 mt-1 mx-2">
+        <div class="row gx-2 mt-1 mx-2">
             <div class="col-3">
                 <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn0" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
@@ -139,13 +142,13 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn." style="background-color: whitesmoke;cursor: pointer;
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btndot" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
                     <h2 class="pt-2 pb-4 text-center">.</h2>
                 </div>
             </div>
             <div class="col-3">
-                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn=" style="background-color: #38ada9;cursor: pointer;
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnequal" style="background-color: whitesmoke;cursor: pointer;
                 width:100%; height: 75%">
                     <h2 class="pt-2 pb-4 text-center">=</h2>
                 </div>
@@ -163,11 +166,20 @@
 
     </section>
 </main>
+<script src="assets/jquery-3.6.1.min.js"></script> <!--import jQuery library-->
+
 
 <script>
 
 
+
 </script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
 
 </body>
 <script src="../../../assignments/CSS/Framework/assest/js/bootstrap.min.js"></script>
