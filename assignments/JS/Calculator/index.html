@@ -171,6 +171,217 @@
 
 <script>
 
+    class declaration{}
+    var calculation = {
+        "firstValue": "",
+        "symbol": "",
+        "secondValue": ""
+    }
+
+    // method to getFinal Count
+    function getFinalResult() {
+        let finalCount = null;
+
+        if (calculation.symbol === '/') {
+            var firstNumber = parseFloat(calculation.firstValue);
+            var secondNumber = parseFloat(calculation.secondValue);
+            finalCount = firstNumber / secondNumber;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '*') {
+            var firstNumber = parseFloat(calculation.firstValue);
+            var secondNumber = parseFloat(calculation.secondValue);
+            finalCount = firstNumber * secondNumber;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '-') {
+            var firstNumber = parseFloat(calculation.firstValue);
+            var secondNumber = parseFloat(calculation.secondValue);
+            finalCount = firstNumber - secondNumber;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '+') {
+            var firstNumber = parseFloat(calculation.firstValue);
+            var secondNumber = parseFloat(calculation.secondValue);
+            finalCount = firstNumber + secondNumber;
+            $('#finalResultDiv').text(finalCount);
+        }
+    }
+
+    //click function for clear button
+    $('#btnClear').click(function () {
+        $('#finalResultDiv').text('');
+        // $('#finalResultDiv').css('padding-bottom','44px')
+    });
+
+    //click function for btn7
+    $('#btn7').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('7');
+        } else {
+            $('#finalResultDiv').text(finalResult + '7');
+        }
+    });
+
+    // click function for btn8
+    $('#btn8').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('8');
+        } else {
+            $('#finalResultDiv').text(finalResult + '8');
+        }
+    });
+
+    // click function for btn9
+    $('#btn9').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('9');
+        } else {
+            $('#finalResultDiv').text(finalResult + '9');
+        }
+    });
+
+    // click function for btn4
+    $('#btn4').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('4');
+        } else {
+            $('#finalResultDiv').text(finalResult + '4');
+        }
+    });
+
+    // click function for btn5
+    $('#btn5').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('5');
+        } else {
+            $('#finalResultDiv').text(finalResult + '5');
+        }
+    });
+
+    // click function for btn6
+    $('#btn6').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('6');
+        } else {
+            $('#finalResultDiv').text(finalResult + '6');
+        }
+    });
+
+    // click function for btn1
+    $('#btn1').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('1');
+        } else {
+            $('#finalResultDiv').text(finalResult + '1');
+        }
+    });
+
+    // click function for btn2
+    $('#btn2').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('2');
+        } else {
+            $('#finalResultDiv').text(finalResult + '2');
+        }
+    });
+
+    // click function for btn3
+    $('#btn3').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+            $('#finalResultDiv').text('3');
+        } else {
+            $('#finalResultDiv').text(finalResult + '3');
+        }
+    });
+
+    // click function for btn0
+    $('#btn0').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '') {
+
+        } else {
+            $('#finalResultDiv').text(finalResult + '0');
+        }
+    });
+
+    // click function for btnDot
+    $('#btndot').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        $('#finalResultDiv').text(finalResult + '.');
+    });
+
+    // click function for " btnDivision "
+    $("#btnDivition").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "/";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click function for " btnMultiplication "
+    $("#btnMuli").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "*";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click function for " btnSubtraction "
+    $("#btnMinus").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "-";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click function for " btnAddition "
+    $("#btnAddition").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "+";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click function for " btnEquals "
+    $("#btnequal").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.secondValue = finalResult;
+
+        getFinalResult();
+    });
 
 
 </script>
