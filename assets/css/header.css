@@ -632,4 +632,98 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
 }
 @keyframes c5 {to{clip-path: inset(0 -1ch 0 0)}}
 
+.box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:98.7vw ;
+    height: 460px;
+    overflow: hidden;
+}
 
+.box li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: 3px solid darkblue ;
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+    border-radius: 50%;
+}
+
+.box li:nth-child(1){
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    background-image: url("../../assets/img/github.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.box li:nth-child(2){
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+    background-image: url("../../assets/img/facebook.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.box li:nth-child(3){
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+    background-image: url("../../assets/img/linkedin.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.box li:nth-child(4){
+    left: 45%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+    background-image: url("../../assets/img/github.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.box li:nth-child(5){
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    background-image: url("../../assets/img/facebook.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.box li:nth-child(6){
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+    background-image: url("../../assets/img/linkedin.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) scale(0);
+    }
+    100%{
+        transform: translateY(-800px) scale(2);
+        opacity: 0;
+    }
+}
