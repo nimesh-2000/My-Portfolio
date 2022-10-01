@@ -208,6 +208,14 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
         font-size: 12px;
         color: white;
     }
+    .box {
+        position: absolute;
+        top: 15px;
+        left: -38px;
+        width: 320px;
+        height: 8rem;
+        overflow: hidden;
+    }
 
 }
 /*================================== 375 ->Mobile -M ==================================*/
@@ -634,8 +642,8 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
 .box{
     position: absolute;
     top: 0;
-    left: 0;
-    width:98.7vw ;
+    left: -40px;
+    width:98.9vw ;
     height: 30rem;
     overflow: hidden;
 }
@@ -705,6 +713,6 @@ header>section>section:nth-child(2)>section:nth-child(3)>div>h3:nth-child(4){
     }
     100%{
         transform: translateY(-800px) scale(2) rotate(360deg);
-        opacity: 0;
+        /*opacity: 0;*/
     }
 }
