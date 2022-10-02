@@ -274,7 +274,7 @@
         items.push(itemObject);
         console.log(items);
         loadAllItems();
-
+        bindRowClickEvents()
     });
 
     $("#btnViewAllItems").click(function (){
@@ -293,6 +293,22 @@
 
             $("#tblItem").append(row);
         }
+    }
+
+    function bindRowClickEvents() {
+        $("#tblItem>tr").click(function () {
+            let id = $(this).children(":eq(0)").text();
+            let name = $(this).children(":eq(1)").text();
+            let price = $(this).children(":eq(2)").text();
+            let Qty = $(this).children(":eq(3)").text();
+
+            //setting table details values to text fields
+            $('#txtICode').val(id);
+            $('#txtIName').val(name);
+            $('#txtIPrice').val(price);
+            $('#txtIQty').val(Qty);
+
+        });
     }
 </script>
 
