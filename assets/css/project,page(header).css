@@ -5,7 +5,7 @@ body{
     height: 100vh;
 }
 header{
-    height: 550px;
+    height: 73px;
     width:98.9vw ;
     position: relative;
 }
@@ -36,4 +36,12 @@ header >section>section> nav > ul > li {
 }
 header >section>section> nav > ul > li:hover {
     color: #24327f;
+}
+
+main>section>section:nth-child(1){
+    position: relative;
+    width: 98.9vw;
+    height: 300px;
+    background-color: red;
+    top: 0px;
 }
