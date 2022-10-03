@@ -48,3 +48,16 @@ main>section{
 main>section>section:nth-child(1)>h1{
     color: #00D2D3;
 }
+main>section>section:nth-child(2){
+    position: absolute;
+    width: 55.9vw;
+    height: 750px;
+    display: grid;
+    left: 0;
+    right: 0;
+    top: 60px;
+    margin: auto;
+    grid-template-rows: repeat(2,1fr);/*rows*/
+    grid-template-columns: repeat(3,1fr); /* How many columns for a row */
+    gap: 20px;
+}
