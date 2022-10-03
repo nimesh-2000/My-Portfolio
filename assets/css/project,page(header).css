@@ -45,3 +45,6 @@ main>section{
     background-color: #2F3542;
     top: -21px;
 }
+main>section>section:nth-child(1)>h1{
+    color: #00D2D3;
+}
