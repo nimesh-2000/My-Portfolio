@@ -42,6 +42,6 @@ main>section>section:nth-child(1){
     position: relative;
     width: 98.9vw;
     height: 300px;
-    background-color: red;
+    background-color: #2F3542;
     top: 0px;
 }
