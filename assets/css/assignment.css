@@ -59,7 +59,7 @@ body{
     transform: translateY(-50px) scale(1.2);
 }
 
-body>section:nth-child(1)>h1{
+body>section:nth-child(2)>h1{
     position: absolute;
     left: 20px;
     top: 20px;
