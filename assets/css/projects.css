@@ -52,7 +52,7 @@ main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
     top: 155px;
     left: 970px;
 }
-main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2){
+.d2{
     position: absolute;
     background-image: url("../../assets/img/p2.jpg");
     /*font-size: 25px;*/
@@ -182,7 +182,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 98px;
         left: 43px;
     }
-    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+    .d2{
         position: absolute;
         background-image: url("../../assets/img/p3.jpg");
         /*font-size: 25px;*/
@@ -323,7 +323,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 98px;
         left: 50px;
     }
-    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+    .d2{
         position: absolute;
         background-image: url("../../assets/img/p3.jpg");
         /*font-size: 25px;*/
@@ -464,7 +464,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 98px;
         left: 64px;
     }
-    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+    .d2{
         position: absolute;
         background-image: url("../../assets/img/p3.jpg");
         /*font-size: 25px;*/
@@ -606,7 +606,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 113px;
         left: 191px;
     }
-    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(3){
+    .d2{
         position: absolute;
         background-image: url("../../assets/img/p3.jpg");
         /*font-size: 25px;*/
@@ -731,7 +731,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         left: 145px;
     }
 
-    main>section:nth-child(6)>section:nth-child(2)>div:nth-child(2) {
+    .d2 {
         position: absolute;
         background-image: url("../../assets/img/p2.jpg");
         /* font-size: 25px; */
