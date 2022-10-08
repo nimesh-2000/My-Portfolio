@@ -94,7 +94,7 @@ main>section:nth-child(6)>section:nth-child(4)>h3{
     font-size: 20px;
     color: #00D2D3;
 }
-main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+.a1{
     position: absolute;
     background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
     /*font-size: 25px;*/
@@ -106,7 +106,7 @@ main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
     top: 742px;
     left: 342px;
 }
-main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+.a2{
     position: absolute;
     background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
     /*font-size: 25px;*/
@@ -118,7 +118,7 @@ main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
     top: 742px;
     left: 580px;
 }
-main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+.a3{
     position: absolute;
     background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
     /*font-size: 25px;*/
@@ -236,7 +236,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         font-size: 10px;
         color: #00D2D3;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+    .a1{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
         width: 60px;
@@ -247,7 +247,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 268px;
         left: 42px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+    .a2{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
         width: 60px;
@@ -258,7 +258,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 268px;
         left: 115px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+    .a3{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
@@ -377,7 +377,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         font-size: 16px;
         color: #00D2D3;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+    .a1{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
         width: 70px;
@@ -388,7 +388,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 277px;
         left: 42px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+    .a2{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
         width: 70px;
@@ -399,7 +399,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 277px;
         left: 120px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+    .a3{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
@@ -518,7 +518,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         font-size: 16px;
         color: #00D2D3;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+    .a1{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
         width: 70px;
@@ -529,7 +529,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 277px;
         left: 60px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+    .a2{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
         width: 70px;
@@ -540,7 +540,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 277px;
         left: 147px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+    .a3{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
@@ -661,7 +661,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         font-size: 20px;
         color: #00D2D3;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1){
+    .a1{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /*font-size: 25px;*/
         width: 106px;
@@ -672,7 +672,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 400px;
         left: 200px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2){
+    .a2{
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /*font-size: 25px;*/
         width: 106px;
@@ -683,7 +683,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 400px;
         left: 331px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3){
+    .a3{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /*font-size: 25px;*/
@@ -780,7 +780,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         height: 44px;
     }
 
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(1) {
+    .a1 {
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-09.jpg");
         /* font-size: 25px; */
@@ -792,7 +792,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 742px;
         left: 164px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(2) {
+    .a2{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-12.jpg");
         /* font-size: 25px; */
@@ -804,7 +804,7 @@ main>section:nth-child(6)>section:nth-child(6)>button{
         top: 742px;
         left: 434px;
     }
-    main>section:nth-child(6)>section:nth-child(5)>div:nth-child(3) {
+    .a3{
         position: absolute;
         background-image: url("../../assets/img/photo_2022-09-07_12-16-15.jpg");
         /* font-size: 25px; */
