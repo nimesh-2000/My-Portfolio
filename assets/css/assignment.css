@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to right , #2c5364, #0f2027);
+    background: linear-gradient(to right , #00D2D3, #0f2027);
     height: 120vh;
     display: flex;
     align-items: center;
@@ -57,4 +57,11 @@ body{
 
 .slider span:hover img{
     transform: translateY(-50px) scale(1.2);
+}
+
+body>section:nth-child(1)>h1{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #6a1a21;
 }
