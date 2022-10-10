@@ -57,8 +57,11 @@ header >section>section> nav > ul > li {
     /*border-right: 2px solid rgba(46, 41, 41, 0.58);*/
 
 }
-header >section>section> nav > ul > li:hover {
+header >section>section> nav > ul > li>a:hover {
     color: #24327f;
+}
+header >section>section> nav > ul > li>a {
+    color: white;
 }
 /*icons */
 header>section>section:nth-child(2)>section:nth-child(2){
