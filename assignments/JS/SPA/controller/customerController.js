@@ -1,7 +1,6 @@
 $("#txtCustomerID").focus();
 $("#btnSave").click(function () {
     //local scope // function scope
-
     //select all the four text fields and then get their typed values
     let customerID = $("#txtCustomerID").val();
     let customerName = $("#txtCustomerName").val();
@@ -13,12 +12,12 @@ $("#btnSave").click(function () {
     //Put all of these values inside a named container
     // customer
 
-    var customerObject = {
-        id: customerID,
-        name: customerName,
-        address: customerAddress,
-        phone: customerPhone
-    }
+    // var customerObject = {
+    //     id: customerID,
+    //     name: customerName,
+    //     address: customerAddress,
+    //     phone: customerPhone
+    // }
 
     //add the customer object to the array
     customers.push(customerObject);
