@@ -1,4 +1,3 @@
-var customers=[]; // global scope (Store all the customer records)
 
 $("#btnSave").click(function () {
     //local scope // function scope
