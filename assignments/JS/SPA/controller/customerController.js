@@ -1,4 +1,4 @@
-
+$("#txtCustomerID").focus();
 $("#btnSave").click(function () {
     //local scope // function scope
 
