@@ -205,7 +205,7 @@ $("#txtItemQuantity").on('keydown', function (event) {
         let itemPrice = $("#txtItemPrice").val();
         let itemQuantity = $("#txtItemQuantity").val();
 
-        var item = customerObject(itemCode, itemName, itemPrice, itemQuantity);
+        var item = itemObject(itemCode, itemName, itemPrice, itemQuantity);
 
         //add the customer object to the array
         items.push(item);
