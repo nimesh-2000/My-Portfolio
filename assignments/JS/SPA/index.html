@@ -320,11 +320,11 @@
             </div>
 
             <form class="d-flex" role="search">
-                <input aria-label="Search" class="form-control me-2" placeholder="Input ID/Name Here" style="margin-top: 1rem; font-family: 'Inter', sans-serif;"
+                <input aria-label="Search" class="form-control me-2"id="inputItemSearch" placeholder="Input ID/Name Here" style="margin-top: 1rem; font-family: 'Inter', sans-serif;"
                        type="search">
             </form>
 
-            <button class="btn btn-success" style="margin-top: 1rem;
+            <button class="btn btn-success"id="btnItemSearch" style="margin-top: 1rem;
                  font-family: 'Inter', sans-serif;" type="button">Search
             </button>
 
@@ -348,13 +348,13 @@
 
             <div aria-label="Basic mixed styles example" class="btn-group2" id="item" role="group"
                  style="margin-top: 1rem">
-                <button class="btn btn-danger" style="background-color: #E74C3C; color: white;
+                <button class="btn btn-danger"id="btnItemDelete" style="background-color: #E74C3C; color: white;
                               font-family: 'Inter', sans-serif;" type="button">Delete
                 </button>
-                <button class="btn btn-warning" style="background-color: #0F6B59; color: white;
+                <button class="btn btn-warning"id="btnItemUpdate" style="background-color: #0F6B59; color: white;
                               font-family: 'Inter', sans-serif;" type="button">Update
                 </button>
-                <button class="btn btn-success" style="background-color: #6F1E51; color: white;
+                <button class="btn btn-success"id="btnItemClear" style="background-color: #6F1E51; color: white;
                               font-family: 'Inter', sans-serif;" type="button">Clear
                 </button>
             </div>
@@ -383,24 +383,24 @@
                         <div class="modal-body">
                             <section style="height: 25rem; border: 1px solid white; background-color: white">
                                 <div class="mb-3">
-                                    <label class="form-label" for="formFile2">Item Code</label>
-                                    <input class="form-control" id="formFile2" type="text">
+                                    <label class="form-label" for="txtItemId">Item Code</label>
+                                    <input class="form-control" id="txtItemId" type="text">
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="formFileMultiple2">Item Name</label>
-                                    <input class="form-control" id="formFileMultiple2" multiple type="text">
+                                    <label class="form-label" for="txtItemName">Item Name</label>
+                                    <input class="form-control" id="txtItemName" multiple type="text">
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="formFileDisabled2">Item Price</label>
-                                    <input class="form-control" id="formFileDisabled2" type="text">
+                                    <label class="form-label" for="txtItemPrice">Item Price</label>
+                                    <input class="form-control" id="txtItemPrice" type="text">
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="formFileLi2">Item Quantity</label>
-                                    <input class="form-control form-control-sm" id="formFileLi2" type="text">
+                                    <label class="form-label" for="txtItemQuantity">Item Quantity</label>
+                                    <input class="form-control form-control-sm" id="txtItemQuantity" type="text">
                                 </div>
 
                                 <div aria-label="Basic mixed styles example" class="btn-group" role="group">
-                                    <button class="btn btn-danger" type="button">Save</button>
+                                    <button class="btn btn-danger"id="btnItemSave" type="button">Save</button>
                                     <button class="btn btn-warning" type="button">Renew</button>
                                     <button class="btn btn-success" type="button">Close</button>
                                 </div>
@@ -415,9 +415,23 @@
             </div>
 
 
-            <button class="btn" style="background-color: #F3BF06; color: black;
+            <button class="btn"id="btnViewAllItems" style="background-color: #F3BF06; color: black;
                               font-family: 'Inter', sans-serif;" type="button">View All Customers
             </button>
+            <form class="d-grid" role="search">
+                <input aria-label="Search" class="form-control me-2 col-5" id="txtItId" placeholder="Item ID"
+                       style="margin-top: 1rem; font-family: 'Inter', sans-serif; width: 50%"
+                       type="search">
+                <input aria-label="Search" class="form-control me-2 col-5" id="txtItName" placeholder="Item Name"
+                       style="margin-top: 1rem; font-family: 'Inter', sans-serif;width: 60%"
+                       type="search">
+                <input aria-label="Search" class="form-control me-2 col-5" id="txtItAddress" placeholder="Item Address"
+                       style="margin-top: 1rem; font-family: 'Inter', sans-serif;width: 70%"
+                       type="search">
+                <input aria-label="Search" class="form-control me-2 col-5" id="txtItPhone" placeholder="Item Phone"
+                       style="margin-top: 1rem; font-family: 'Inter', sans-serif;width: 80%"
+                       type="search">
+            </form>
         </div>
 
 
@@ -434,31 +448,8 @@
                         <th scope="col" style="border: 1px solid black">Quantity</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Cake</td>
-                        <td>600</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Soap</td>
-                        <td>100</td>
-                        <td>400</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Butter</td>
-                        <td>400</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Buiscut</td>
-                        <td>200</td>
-                        <td>400</td>
-                    </tr>
+                    <tbody id="tblItem">
+
                     </tbody>
                 </table>
             </div>
@@ -552,7 +543,7 @@
                             <div class="col">
                                 <div class="mb-4">
                                     <label for="item" class="form-label">Item</label>
-                                    <input type="text" class="form-control" id="item" placeholder="Sunlight">
+                                    <input type="text" class="form-control" id="Oitem" placeholder="Sunlight">
                                 </div>
                             </div>
                         </div>
