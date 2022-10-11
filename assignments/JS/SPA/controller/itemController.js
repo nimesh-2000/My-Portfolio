@@ -28,7 +28,7 @@ $("#btnItemSave").click(function () {
 });
 
 $("#btnViewAllItems").click(function (){
-    loadAllCustomers();
+    loadAllItems();
 });
 
 function loadAllItems(){
