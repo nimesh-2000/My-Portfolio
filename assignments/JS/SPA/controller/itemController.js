@@ -18,11 +18,24 @@ $("#btnItemSave").click(function () {
     var item = itemObject(itemCode, itemName, itemPrice, itemQuantity);
     // customerDB.push(customer);
     //add the customer object to the array
-    customers.push(item);
+    items.push(item);
     console.log(items);
-    // loadAllCustomers();
+     loadAllItems();
     // // doubleClickEvents();
     // clearAllTexts();
     //
     // bindRowClickEvents();
 });
+
+function loadAllItems(){
+
+    $("#tblItem").empty();
+
+    for(var item of items){
+        console.log(item);
+
+        var row= `<tr><td>${item.code}</td><td>${item.name}</td><td>${item.price}</td><td>${item.quantity}</td></tr>`;
+
+        $("#tblItem").append(row);
+    }
+}
