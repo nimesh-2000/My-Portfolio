@@ -222,7 +222,7 @@ $("#txtCustomerId").on('keydown', function (event) {
     if (event.key == "Enter" && check(cusIDRegEx, $("#txtCustomerId"))) {
         $("#txtCustomerName").focus();
     } else {
-        focusText($("#txtCustomerID"));
+        focusText($("#txtCustomerId"));
     }
 });
 
