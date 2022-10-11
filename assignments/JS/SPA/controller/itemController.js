@@ -27,6 +27,10 @@ $("#btnItemSave").click(function () {
     // bindRowClickEvents();
 });
 
+$("#btnViewAllItems").click(function (){
+    loadAllCustomers();
+});
+
 function loadAllItems(){
 
     $("#tblItem").empty();
