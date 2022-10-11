@@ -1,6 +1,6 @@
-function customerObject(customerId, customerName, customerAddress, customerPhone) {
+function customerObject(customerID, customerName, customerAddress, customerPhone) {
     return {
-        id: customerId,
+        id: customerID,
         name: customerName,
         address: customerAddress,
         contact: customerPhone
