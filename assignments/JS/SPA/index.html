@@ -366,25 +366,25 @@
         <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-6 col-xxl-6 bg-#DFF9FB justify-content-end mt-4"
              style="align-items: end">
             <!--             <div class="row mt-4" style=" width: 40%">-->
-            <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal" style="background-color: #0F6B59; color: white;  font-family: 'Inter', sans-serif;"
+            <button class="btn btn-primary" data-bs-target="#exampleItem" data-bs-toggle="modal" style="background-color: #0F6B59; color: white;  font-family: 'Inter', sans-serif;"
                     type="button">
                 +New Item
             </button>
 
             <!-- Modal -->
-            <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal2"
+            <div aria-hidden="true" aria-labelledby="exampleModalItem" class="modal fade" id="exampleItem"
                  tabindex="-1">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header" style="background-color: #144A81">
-                            <h5 class="modal-title" id="exampleModalLabel2" style="color: white">New Item</h5>
+                            <h5 class="modal-title" id="exampleModalItem" style="color: white">New Item</h5>
                             <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
                         </div>
                         <div class="modal-body">
                             <section style="height: 25rem; border: 1px solid white; background-color: white">
                                 <div class="mb-3">
-                                    <label class="form-label" for="txtItemId">Item Code</label>
-                                    <input class="form-control" id="txtItemId" type="text">
+                                    <label class="form-label" for="txtItemCode">Item Code</label>
+                                    <input class="form-control" id="txtItemCode" type="text">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="txtItemName">Item Name</label>
@@ -419,7 +419,7 @@
                               font-family: 'Inter', sans-serif;" type="button">View All Customers
             </button>
             <form class="d-grid" role="search">
-                <input aria-label="Search" class="form-control me-2 col-5" id="txtItId" placeholder="Item ID"
+                <input aria-label="Search" class="form-control me-2 col-5" id="txtItCode" placeholder="Item Code"
                        style="margin-top: 1rem; font-family: 'Inter', sans-serif; width: 50%"
                        type="search">
                 <input aria-label="Search" class="form-control me-2 col-5" id="txtItName" placeholder="Item Name"
@@ -442,7 +442,7 @@
                 <table class="table table-hover table-borderless table-striped" style="border: 1px solid black">
                     <thead class="text-light " style="background-color: #34495E; border: 1px solid black">
                     <tr>
-                        <th scope="col" style="border: 1px solid black">Item ID</th>
+                        <th scope="col" style="border: 1px solid black">Item Code</th>
                         <th scope="col" style="border: 1px solid black">Item Name</th>
                         <th scope="col" style="border: 1px solid black">Price</th>
                         <th scope="col" style="border: 1px solid black">Quantity</th>
