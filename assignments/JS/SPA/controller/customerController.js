@@ -20,12 +20,15 @@ $("#btnSave").click(function () {
     //add the customer object to the array
     customers.push(customer);
     console.log(customers);
+    alert("assssssss");
     loadAllCustomers();
+    loadAllCustomerId();
+
     // doubleClickEvents();
     clearAllCustomerTexts();
 
     bindCustomerRowClickEvents();
-    loadAllCustomerId();
+
 });
 
 $("#btnViewAllCustomers").click(function (){
@@ -100,7 +103,7 @@ $("#btnSearch").click(function (){
         setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
     } else {
         alert("There is no customer available for that " + typedId);
-        setTextfieldValues("", "", "", "");
+        setCustomerTextFieldValues("", "", "", "");
     }
 
 });
@@ -112,7 +115,7 @@ $("#btnCusDelete").click(function () {
     if (option){
         if (deleteCustomer(deleteID)) {
             alert("Customer Successfully Deleted..");
-            setTextfieldValues("", "", "", "");
+            setCustomerTextFieldValues("", "", "", "");
         } else {
             alert("No such customer to delete. please check the id");
         }
@@ -124,7 +127,7 @@ $("#btnCusUpdate").click(function () {
     let response = updateCustomer(customerID);
     if (response) {
         alert("Customer Updated Successfully");
-        setTextfieldValues("", "", "", "");
+        setCustomerTextFieldValues("", "", "", "");
     } else {
         alert("Update Failed..!");
 
@@ -139,12 +142,12 @@ $("#txtCusId").on('keyup', function (event) {
             setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
         } else {
             alert("There is no customer available for that " + typedId);
-            setTextfieldValues("", "", "", "");
+            setCustomerTextFieldValues("", "", "", "");
         }
     }
 });
 
-function setTextfieldValues(id, name, address, contact) {
+function setCustomerTextFieldValues(id, name, address, contact) {
     $("#txtCusId").val(id);
     $("#txtCusName").val(name);
     $("#txtCusAddress").val(address);
@@ -220,7 +223,7 @@ $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerPhone").on('b
 
 
 $("#txtCustomerId").on('keydown', function (event) {
-    if (event.key == "Enter" && check(cusIDRegEx, $("#txtCustomerId"))) {
+    if (event.key == "Enter" && checkC(cusIDRegEx, $("#txtCustomerId"))) {
         $("#txtCustomerName").focus();
     } else {
         focusText($("#txtCustomerId"));
@@ -229,21 +232,21 @@ $("#txtCustomerId").on('keydown', function (event) {
 
 
 $("#txtCustomerName").on('keydown', function (event) {
-    if (event.key == "Enter" && check(cusNameRegEx, $("#txtCustomerName"))) {
+    if (event.key == "Enter" && checkC(cusNameRegEx, $("#txtCustomerName"))) {
         focusText($("#txtCustomerAddress"));
     }
 });
 
 
 $("#txtCustomerAddress").on('keydown', function (event) {
-    if (event.key == "Enter" && check(cusAddressRegEx, $("#txtCustomerAddress"))) {
+    if (event.key == "Enter" && checkC(cusAddressRegEx, $("#txtCustomerAddress"))) {
         focusText($("#txtCustomerPhone"));
     }
 });
 
 
 $("#txtCustomerPhone").on('keydown', function (event) {
-    if (event.key == "Enter" && check(cusPhoneRegEx, $("#txtCustomerPhone"))) {
+    if (event.key == "Enter" && checkC(cusPhoneRegEx, $("#txtCustomerPhone"))) {
         // let res = confirm("Do you want to add this customer.?");
         // if (res) {
         //     clearAllTexts();
@@ -262,50 +265,52 @@ $("#txtCustomerPhone").on('keydown', function (event) {
         if (res) {
             clearAllCustomerTexts();
         }
+        loadAllCustomers();
+        bindCustomerRowClickEvents();
+        loadAllCustomerId();
     }
 
-    loadAllCustomers();
-    bindRowClickEvents();
+
 });
 
 
 function checkCustomerValidity() {
     let errorCount=0;
     for (let validation of customerValidations) {
-        if (check(validation.reg,validation.field)) {
-            textSuccess(validation.field,"");
+        if (checkC(validation.reg,validation.field)) {
+            textSuccessC(validation.field,"");
         } else {
             errorCount=errorCount+1;
-            setTextError(validation.field,validation.error);
+            setCustomerTextError(validation.field,validation.error);
         }
     }
-    setButtonState(errorCount);
+    setButtonStateC(errorCount);
 }
 
-function check(regex, txtField) {
+function checkC(regex, txtField) {
     let inputValue = txtField.val();
     return regex.test(inputValue) ? true : false;
 }
 
-function setTextError(txtField,error) {
+function setCustomerTextError(txtField,error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField,"");
+        defaultTextC(txtField,"");
     } else {
         txtField.css('border', '2px solid red');
         txtField.parent().children('span').text(error);
     }
 }
 
-function textSuccess(txtField,error) {
+function textSuccessC(txtField,error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField,"");
+        defaultTextC(txtField,"");
     } else {
         txtField.css('border', '2px solid green');
         txtField.parent().children('span').text(error);
     }
 }
 
-function defaultText(txtField,error) {
+function defaultTextC(txtField,error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
 }
@@ -314,7 +319,7 @@ function focusText(txtField) {
     txtField.focus();
 }
 
-function setButtonState(value){
+function setButtonStateC(value){
     if (value>0){
         $("#btnSave").attr('disabled',true);
     }else{

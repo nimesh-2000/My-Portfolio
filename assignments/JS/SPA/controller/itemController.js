@@ -255,10 +255,10 @@ $("#txtItemQuantity").on('keydown', function (event) {
         if (res) {
             clearAllTexts();
         }
+        loadAllItems();
+        bindRowClickEvents();
+        loadAllItemCodes();
     }
-
-    loadAllItems();
-    bindRowClickEvents();
 });
 
 
