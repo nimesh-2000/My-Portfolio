@@ -95,6 +95,46 @@ $("#txtICode").on('keyup', function (event) {
         }
     }
 });
+function bindRowClickEvents() {
+    $("#tblItem>tr").click(function () {
+        let code = $(this).children(":eq(0)").text();
+        let name = $(this).children(":eq(1)").text();
+        let price = $(this).children(":eq(2)").text();
+        let quantity = $(this).children(":eq(3)").text();
+
+        //setting table details values to text fields
+        $('#txtICode').val(code);
+        $('#txtIName').val(name);
+        $('#txtIPrice').val(price);
+        $('#txtIQuantity').val(quantity);
+
+        // if(sm===id){
+        //     // deleteCustomer(id);
+        //     $(this).children().remove();
+        //     // let id = $(this).children(":eq(0)").text();
+        //         alert("if"+id);
+        // }else{
+        //     sm=id;
+        //     alert("else"+id);
+        //
+        // }
+
+        // $("#tblCustomer>tr").on('dblclick', function () {
+        //     // let id = $(this).children(":eq(0)").text();
+        //     // deleteCustomer(id);
+        //     // $(this).children().remove();
+        //     // let option = confirm("Do you really want to delete customer id :" + id);
+        //     // if (option){
+        //     //     if (deleteCustomer(id)) {
+        //     //         alert("Customer Successfully Deleted..");
+        //     //         setTextfieldValues("", "", "", "");
+        //     //     } else {
+        //     //         alert("No such customer to delete. please check the id");
+        //     //     }
+        //     // }
+        // });
+    });
+}
 
 function setTextfieldValues(code, name, price, quantity) {
     $("#txtICode").val(code);

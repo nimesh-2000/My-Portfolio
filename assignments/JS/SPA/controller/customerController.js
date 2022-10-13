@@ -22,9 +22,10 @@ $("#btnSave").click(function () {
     console.log(customers);
     loadAllCustomers();
     // doubleClickEvents();
-    clearAllTexts();
+    clearAllCustomerTexts();
 
-    bindRowClickEvents();
+    bindCustomerRowClickEvents();
+    loadAllCustomerId()
 });
 
 $("#btnViewAllCustomers").click(function (){
@@ -46,7 +47,7 @@ function loadAllCustomers(){
 }
 
 // let sm=null;
-function bindRowClickEvents() {
+function bindCustomerRowClickEvents() {
     $("#tblCustomer>tr").click(function () {
         let id = $(this).children(":eq(0)").text();
         let name = $(this).children(":eq(1)").text();
@@ -98,7 +99,7 @@ $("#btnSearch").click(function (){
     if (customer != null) {
         setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
     } else {
-        alert("There is no cusotmer available for that " + typedId);
+        alert("There is no customer available for that " + typedId);
         setTextfieldValues("", "", "", "");
     }
 
@@ -137,7 +138,7 @@ $("#txtCusId").on('keyup', function (event) {
         if (customer != null) {
             setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
         } else {
-            alert("There is no cusotmer available for that " + typedId);
+            alert("There is no customer available for that " + typedId);
             setTextfieldValues("", "", "", "");
         }
     }
@@ -210,11 +211,11 @@ $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerPhone").on('k
 
 
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerPhone").on('keyup', function (event) {
-    checkValidity();
+    checkCustomerValidity();
 });
 
 $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerPhone").on('blur', function (event) {
-    checkValidity();
+    checkCustomerValidity()
 });
 
 
@@ -259,7 +260,7 @@ $("#txtCustomerPhone").on('keydown', function (event) {
         console.log(customers);
         let res = confirm("Do you want to add this customer.?");
         if (res) {
-            clearAllTexts();
+            clearAllCustomerTexts();
         }
     }
 
@@ -268,7 +269,7 @@ $("#txtCustomerPhone").on('keydown', function (event) {
 });
 
 
-function checkValidity() {
+function checkCustomerValidity() {
     let errorCount=0;
     for (let validation of customerValidations) {
         if (check(validation.reg,validation.field)) {
@@ -321,16 +322,16 @@ function setButtonState(value){
     }
 }
 
-function clearAllTexts() {
+function clearAllCustomerTexts() {
     $("#txtCustomerId").focus();
     $("#txtCustomerId,#txtCustomerName,#txtCustomerAddress,#txtCustomerPhone").val("");
-    checkValidity();
+    checkCustomerValidity();
 }
 
 $("#btnCusClear").click(function (){
     $("#txtCusId").focus();
     $("#txtCusId,#txtCusName,#txtCusAddress,#txtCusPhone").val("");
-    checkValidity();
+    checkCustomerValidity()
 
 });
 
