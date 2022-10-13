@@ -25,7 +25,7 @@ $("#btnSave").click(function () {
     clearAllCustomerTexts();
 
     bindCustomerRowClickEvents();
-    loadAllCustomerId()
+    loadAllCustomerId();
 });
 
 $("#btnViewAllCustomers").click(function (){

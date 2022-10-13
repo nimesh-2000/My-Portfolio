@@ -25,6 +25,7 @@ $("#btnItemSave").click(function () {
     clearAllTexts();
     //
     bindRowClickEvents();
+    loadAllItemCodes();
 });
 
 $("#btnViewAllItems").click(function (){
