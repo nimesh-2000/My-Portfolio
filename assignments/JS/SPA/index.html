@@ -483,7 +483,7 @@
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
                                     <label for="orderId" class="form-label">Order ID</label>
-                                    <input type="text" class="form-control" id="orderId" placeholder="O001">
+                                    <input type="text" class="form-control" id="orderId" >
                                 </div>
                             </div>
                             <div class="col">
@@ -496,27 +496,27 @@
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
-                                    <label for="customerId" class="form-label">Customer ID</label>
-                                    <select class="form-select form-select-ls" id="customerId" aria-label=".form-select-lg example">
+                                    <label for="oCustomerId" class="form-label">Customer ID</label>
+                                    <select class="form-select form-select-ls" id="oCustomerId" aria-label=".form-select-lg example">
                                         <option selected>C001</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-lg-4 mb-sm-3 mb-3">
-                                    <label for="customerName" class="form-label">Customer</label>
-                                    <input type="text" class="form-control" id="customerName" placeholder="Denuwan">
+                                    <label for="oCustomerName" class="form-label">Customer</label>
+                                    <input type="text" class="form-control" id="oCustomerName">
                                 </div>
                             </div>
                         </div>
                         <div class="row gx-3">
                             <div class="mb-lg-4 mb-sm-3 mb-3">
-                                <label for="salary" class="form-label">Phone</label>
-                                <input type="text" class="form-control" id="salary" >
+                                <label for="oCustomerPhone" class="form-label">Phone</label>
+                                <input type="text" class="form-control" id="oCustomerPhone" >
                             </div>
                             <div class="mb-lg-4 mb-md-5 ">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address" placeholder="Kaluthara">
+                                <label for="oCustomerAddress" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="oCustomerAddress">
                             </div>
                         </div>
                     </div>
@@ -534,40 +534,40 @@
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-4">
-                                    <label for="itemId" class="form-label">Item ID</label>
-                                    <select class="form-select form-select-ls" id="itemId" aria-label=".form-select-lg example">
+                                    <label for="oItemId" class="form-label">Item ID</label>
+                                    <select class="form-select form-select-ls" id="oItemId" aria-label=".form-select-lg example">
                                         <option selected>P001</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-4">
-                                    <label for="item" class="form-label">Item</label>
-                                    <input type="text" class="form-control" id="Oitem" placeholder="Sunlight">
+                                    <label for="oItemName" class="form-label">Item</label>
+                                    <input type="text" class="form-control" id="oItemName">
                                 </div>
                             </div>
                         </div>
                         <div class="row gx-3">
                             <div class="col">
                                 <div class="mb-4">
-                                    <label for="price" class="form-label">Price</label>
-                                    <input type="text" class="form-control" id="price" placeholder="0000.00">
+                                    <label for="oItemPrice" class="form-label">Price</label>
+                                    <input type="text" class="form-control" id="oItemPrice">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="mb-5">
                                     <label for="qtyOnHand" class="form-label">QyOnHand</label>
-                                    <input type="number" class="form-control" id="qtyOnHand" placeholder="10">
+                                    <input type="number" class="form-control" id="qtyOnHand">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="mb-lg-2 mb-md-2 mb-sm-5">
                                 <label for="orderQty" class="form-label">Order Quantity</label>
-                                <input type="number" class="form-control" id="orderQty" placeholder="00">
+                                <input type="number" class="form-control" id="orderQty">
                             </div>
                             <div class="mt-5 d-grid  col-6 mx-auto">
-                                <button type="button" class="btn btn-primary" style="background-color: #E74C3C">Add Item</button>
+                                <button type="button"id="addToCart" class="btn btn-primary" style="background-color: #E74C3C">Add Item</button>
                             </div>
                         </div>
                     </div>
@@ -654,7 +654,7 @@
                     <th scope="col"  style="border: 1px solid black">Total(Rs)</th>
                 </tr>
                 </thead>
-                <tbody>
+                <tbody id="orderTable">
                 <tr>
                     <th scope="row">P001</th>
                     <td>Sunlight</td>
