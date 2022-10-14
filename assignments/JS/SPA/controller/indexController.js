@@ -1,39 +1,40 @@
-$("#cForm").css('display','none');
-$("#iForm").css('display','none');
-$("#oForm").css('display','none');
-$("#detail").css('display','none');
+
 
 $("#h").click(function(){
-    $("#cForm").css('display','none');
     $("#dashboardContent").css('display','block');
+    $("#cForm").css('display','none');
     $("#iForm").css('display','none');
     $("#oForm").css('display','none');
+    $("#detail").css('display','none');
 });
 
 $("#c").click(function(){
-    $("#cForm").css('display','block');
     $("#dashboardContent").css('display','none');
+    $("#cForm").css('display','block');
     $("#iForm").css('display','none');
     $("#oForm").css('display','none');
+    $("#detail").css('display','none');
 });
 
 $("#i").click(function(){
-    $("#cForm").css('display','none');
     $("#dashboardContent").css('display','none');
+    $("#cForm").css('display','none');
     $("#iForm").css('display','block');
     $("#oForm").css('display','none');
+    $("#detail").css('display','none');
 });
 
 $("#o").click(function(){
-    $("#cForm").css('display','none');
     $("#dashboardContent").css('display','none');
+    $("#cForm").css('display','none');
     $("#iForm").css('display','none');
     $("#oForm").css('display','block');
+    $("#detail").css('display','none');
 });
 
 $("#d").click(function(){
-    $("#cForm").css('display','none');
     $("#dashboardContent").css('display','none');
+    $("#cForm").css('display','none');
     $("#iForm").css('display','none');
     $("#oForm").css('display','none');
     $("#detail").css('display','block');
