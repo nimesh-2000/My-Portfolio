@@ -36,4 +36,103 @@ $('#oItemId').on('change',function (){
 
 });
 
+$('#btnAddToCart').click(function (){
+
+    let itemCode=$('#oItemId').val();
+    let itmName = $('#oItemName').val();
+    let itmPrice = $('#oItemPrice').val();
+    let itemOrderQty = $('#orderQty').val();
+
+    let total =itmPrice*itemOrderQty;
+
+
+    let rowExists = searchRowExists(itemCode);
+    if(rowExists!=null){
+        let newQty=((parseInt(rowExists.orItemQTY))+(parseInt(itemOrderQty)));
+
+        // rowExists.orItemQTY.val(newQty);
+        rowExists.orItemQTY=newQty;
+        rowExists.orItemTotal=parseFloat(itmPrice)*newQty;
+        addCartData();
+
+    }else{
+        tempCartModal(itemCode,itmName,itmPrice,itemOrderQty,total)
+        addCartData();
+    }
+
+    minQty(itemCode,itemOrderQty);
+
+})
+
+/*Add Table*/
+function addCartData() {
+    $("#orderTable> tr").detach();
+
+    for (var tc of orders){
+        var row="<tr><td>"+tc.orItemCOde+"</td><td>"+tc.orItemName+"</td><td>"+tc.orItemPrice+"</td><td>"+tc.orItemQTY+"</td><td>"+tc.orItemTotal+"</td></tr>";
+        $('#orderTable').append(row);
+    }
+    bindCustomerRowClickEvents();
+    getTotal();
+}
+
+function getTotal() {
+    let tempTot=0;
+    for (let tempOrderCartArElement of orders) {
+        tempTot=tempTot+tempOrderCartArElement.orItemTotal;
+    }
+    $('#total').val(tempTot);
+
+}
+
+/*discount*/
+$('#discount').on('keyup',function (){
+    let dis=$('#discount').val();
+    let tot=$('#total').val();
+    let totMin=0;
+    let subTot=0;
+
+    console.log(dis+"=="+tot);
+    totMin=parseFloat(tot)*(dis/100);
+    subTot=tot-totMin;
+
+    $('#subTotal').val(subTot);
+})
+
+$('#cash').on('keyup',function (){
+    let cash=$('#cash').val();
+    let subT=$('#subTotal').val();
+
+
+    $('#balance').val((parseFloat(cash))-parseFloat(subT));
+})
+
+/*Remove Duplicate Row*/
+function searchRowExists(itemCode) {
+    for (let tempOr of orders) {
+        console.log(tempOr.orItemCOde+"-----"+itemCode);
+        if(tempOr.orItemCOde===itemCode){
+            return tempOr
+        }
+    }
+    return null;
+}
+
+function minQty(itemCode,orderQty) {
+    for (let itemArElement of items) {
+        if(itemArElement.code===itemCode){
+            itemArElement.quantity=parseInt(itemArElement.quantity)-parseInt(orderQty);
+        }
+    }
+    loadAllItems();
+    clearData();
+
+}
+function clearData() {
+    $('#qtyOnHandOrd').val("");
+    $('#item').val("");
+    $('#priceOrd').val("");
+    $('#orderQty').val("");
+}
+
 
