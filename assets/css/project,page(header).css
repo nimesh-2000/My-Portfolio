@@ -281,6 +281,15 @@ main>section>section:nth-child(3)>div:nth-child(6){
     box-shadow: 0px -1px 8px 2px lavender ;
 
 }
+main>section>section:nth-child(3)>div:nth-child(6)>p{
+    color: white;
+    width: 340px;
+    height: 205px;
+    left: 31px;
+    top: -11px;
+    font-size: 1.2rem;
+    position: absolute;
+}
 main>section>section:nth-child(3)>div:hover{
     background-color: #6c5ce7;
     transition-duration: 1s;
