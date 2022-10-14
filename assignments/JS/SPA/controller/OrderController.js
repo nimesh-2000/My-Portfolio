@@ -135,4 +135,27 @@ function clearData() {
     $('#orderQty').val("");
 }
 
+/*Purchase Order*/
+$('#purchaseOrder').click(function (){
+    let orderId = $('#orderId').val();
+    let orderDate = $('#OrderDate').val();
+    let customerName = $('#oCustomerName').val();
+    let discount = disTOGave;
+    let subTotal = $('#subTotal').val();
+
+    orderModal(orderId,orderDate,customerName,discount,subTotal);
+
+    loadAllOrder();
+    blindOrderRowClickEvent();
+    clearOrderTexts();
+
+    for (var tempOrder of orders){
+        orders.pop();
+    }
+    orders.pop();
+    addCartData();
+
+    // console.log(orderArray);
+});
+
 
