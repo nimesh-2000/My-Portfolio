@@ -73,6 +73,10 @@
                     <li class="nav-item">
                         <a class="nav-link" id="o" href="#">Orders</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="d" href="#">Order Details</a>
+                    </li>
+
                     <li class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
                            role="button">
@@ -662,6 +666,27 @@
 
 </main>
 
+<main class="container position-relative"id="detail">
+    <section>
+        <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar " >
+            <table class="table table-hover table-borderless table-striped" style="border: 1px solid black">
+                <thead class=" text-light" style="background-color: #34495E; border: 1px solid black">
+                <tr>
+                    <th scope="col" style="border: 1px solid black">Order ID</th>
+                    <th scope="col"  style="border: 1px solid black">Order Date</th>
+                    <th scope="col" style="border: 1px solid black">Customer Name</th>
+                    <th scope="col"  style="border: 1px solid black">Discount</th>
+                    <th scope="col"  style="border: 1px solid black">Total(Rs)</th>
+                </tr>
+                </thead>
+                <tbody id="tblOrderDetail">
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
 <script src="assets/jquery-3.6.1.min.js"></script> <!--import jQuery library-->
 <script src="controller/indexController.js"></script>
 <script src="controller/customerController.js"></script>
@@ -671,6 +696,7 @@
 <script src="model/item.js"></script>
 <script src="controller/OrderController.js"></script>
 <script src="model/addToCart.js"></script>
+<script src="model/orders.js"></script>
 </body>
 <script src="../../../assignments/CSS/Framework/assest/js/bootstrap.min.js"></script>
 </html>

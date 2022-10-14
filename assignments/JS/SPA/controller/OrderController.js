@@ -86,6 +86,7 @@ function getTotal() {
 }
 
 /*discount*/
+let disTOGave=0;
 $('#discount').on('keyup',function (){
     let dis=$('#discount').val();
     let tot=$('#total').val();
@@ -95,7 +96,7 @@ $('#discount').on('keyup',function (){
     console.log(dis+"=="+tot);
     totMin=parseFloat(tot)*(dis/100);
     subTot=tot-totMin;
-
+    disTOGave=totMin;
     $('#subTotal').val(subTot);
 })
 
@@ -146,7 +147,7 @@ $('#purchaseOrder').click(function (){
     orderModal(orderId,orderDate,customerName,discount,subTotal);
 
     loadAllOrder();
-    blindOrderRowClickEvent();
+    // loadDetail();
     clearOrderTexts();
 
     for (var tempOrder of orders){
@@ -157,5 +158,41 @@ $('#purchaseOrder').click(function (){
 
     // console.log(orderArray);
 });
+
+// function loadDetail(){
+//
+//     $("#tblOrderDetail> tr").detach();
+//
+//     for (var od of pOrders){
+//         var row="<tr><td>"+od.orId+"</td><td>"+od.orDate+"</td><td>"+od.orCusName+"</td><td>"+od.orDis+"</td><td>"+od.orSubTotal+"</td></tr>";
+//         $('#tblOrderDetail').append(row);
+//     }
+// }
+
+function clearOrderTexts(){
+    $('#orderId').val("");
+    $('#OrderDate').val("");
+    $('#oCustomerName').val("");
+    $('#oCustomerAddress').val("");
+    $('#oCustomerPhone').val("");
+
+    $('#oItemName').val("");
+    $('#oItemPrice').val("");
+    $('#qtyOnHand').val(0);
+    $('#orderQty').val("");
+
+    $('#cash').val("");
+    $('#discount').val(0);
+    $('#balance').val("");
+    $('#subTotal').val(0);
+}
+
+function loadAllOrder(){
+    $("#tblOrderDetail> tr").detach();
+    for (var i of pOrders){
+        $('#tblOrderDetail').append('<tr><td>'+i.orId+'</td>'+'<td>'+i.orDate+'</td>'+'<td>'+i.orCusName+'</td>'+'<td>'+i.orDis+'</td>'+'<td>'+i.orSubTotal+'</td></tr>');
+    }
+}
+
 
 

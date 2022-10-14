@@ -1,6 +1,7 @@
 $("#cForm").css('display','none');
 $("#iForm").css('display','none');
 $("#oForm").css('display','none');
+$("#detail").css('display','none');
 
 $("#h").click(function(){
     $("#cForm").css('display','none');
@@ -28,4 +29,12 @@ $("#o").click(function(){
     $("#dashboardContent").css('display','none');
     $("#iForm").css('display','none');
     $("#oForm").css('display','block');
+});
+
+$("#d").click(function(){
+    $("#cForm").css('display','none');
+    $("#dashboardContent").css('display','none');
+    $("#iForm").css('display','none');
+    $("#oForm").css('display','none');
+    $("#detail").css('display','block');
 });
