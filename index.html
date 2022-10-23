@@ -27,8 +27,13 @@
     <link href="assets/css/services.css" rel="stylesheet">
     <link href="assets/css/contact.css" rel="stylesheet">
     <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/loader.css" rel="stylesheet">
 
 </head>
+<body>
+<div id="loadingContainer">
+    <div class="classic-1"></div>
+</div>
 <header>
     <section>
 
@@ -436,7 +441,12 @@
         <small>| C 2022 ALL RIGHTS RESERVED</small>
     </address>
 </footer>
-
-
+<script src="assignments/JS/SPA/assets/jquery-3.6.1.min.js"></script> <!--import jQuery library-->
+<script>
+    //for the Loading Window
+    $(window).on('load',function () {
+        $('#loadingContainer').fadeOut(1000);
+    })
+</script>
 </body>
 </html>
