@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>knight rider</title>
+    <link rel="stylesheet" href="../../JS/Que/assest/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 100px;
+            width: max-content;
+            border-bottom: 3px solid white;
+            padding-bottom: 9px;
+        }
+
+        #container {
+            display: flex;
+            position: absolute;
+            width: 95vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 200px;
+
+        }
+
+        #container > div {
+            width: 200px;
+            height: 70px;
+            border: 1px solid crimson;
+        }
+
+        #btnContainer > button {
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 10px;
+        }
+
+        #btnContainer {
+            position: absolute;
+            display: flex;
+            width: 95vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 290px;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h1>Knight-Rider</h1>
+
+<section id="container">
+</section>
+
+<section id="btnContainer">
+    <button id="start">Start</button>
+    <button id="end">End</button>
+</section>
+<script src="../../JS/Que/assest/jquery-3.6.1.min.js"></script>
+<!--<script src="../../JS/Que/assest/bootstrap.min.js"></script>-->
+
+<script>
+    var cueData={
+        count:0,
+        temArray:[],
+        leftColorArray:['white','white','white','white','white','white',"#ed0909","#f04646","#ed6b6b","#f08686","#f0aaaa","#f0c9c9"],
+        rightColorArray:['white','white','white','white','white','white',"#f0c9c9","#f0aaaa","#f08686","#ed6b6b","#f04646","#ed0909"],
+
+        animateLeft:function(){
+            var lastColor= this.temArray.pop();
+            this.temArray.unshift(lastColor);
+        },
+        animateRight:function (){
+            var firstColor = this.temArray.shift();
+            this.temArray.push(firstColor);
+        },
+        animate:function (){
+            this.count++;
+            if(this.count<=this.leftColorArray.length){
+                this.temArray=this.leftColorArray;
+                this.animateLeft();
+            }else{
+                if (this.count>=(this.rightColorArray.length*2)){
+                    this.count=0;
+                }
+                this.temArray=this.rightColorArray;
+                this.animateRight();
+
+            }
+        }
+    }
+
+    renderDivs();
+
+    function renderDivs() {
+        $('#container').empty();
+        for (let i = 0; i < (cueData.temArray.length) / 2; i++) {
+            $('#container').append(`<div style="background-color: ${cueData.temArray[i]}"></div>`);
+        }
+        cueData.animate();
+    }
+    var t;
+    $("#start").click(function (){
+        clearInterval(t);
+        t=setInterval(renderDivs, 50);
+    });
+    $("#end").click(function (){
+        clearInterval(t);
+    });
+
+    // $("#btnQue").click(function (){
+    //     let inputName= $("#txtName").val();
+    //     let selectedColor= $("#txtColor").val();
+    //     var person={name:inputName,color:selectedColor};
+    //     cueData.persons.unshift(person);
+    // });
+
+
+</script>
+</body>
+</html>
