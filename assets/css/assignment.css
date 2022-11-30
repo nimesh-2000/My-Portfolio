@@ -236,3 +236,56 @@ body>section:nth-child(1)>h1{
     font-size: 1.5rem;
     color: black;
 }
+/*.Js{*/
+/*    position: absolute;*/
+/*    left: 50px;*/
+/*    top: 510px;*/
+/*    !*background-color: #0abde3;*!*/
+/*    !* From https://css.glass *!*/
+/*    background: rgba(160, 206, 228, 0.48);*/
+/*    border-radius: 100px;*/
+/*    box-shadow: 0px -1px 8px 2px white;*/
+/*    backdrop-filter: blur(3.3px);*/
+/*    -webkit-backdrop-filter: blur(3.3px);*/
+/*    border: 1px solid rgba(160, 206, 228, 0.14);*/
+/*    width: 333px;*/
+/*    height: 253px;*/
+/*}*/
+#j {
+    position: absolute;
+    left: 1319px;
+    top: 130px;
+    font-size: 2rem;
+    color: #20c997;
+}
+#b13 {
+    position: absolute;
+    left: 1315px;
+    top: 191px;
+    font-size: 1.5rem;
+    color: #00D2D3;
+}
+#b14 {
+    position: absolute;
+    left: 1315px;
+    top: 362px;
+    font-size: 1.5rem;
+    color: #00D2D3;}
+#b15 {
+    position: absolute;
+    left: 1315px;
+    top: 321px;
+    font-size: 1.5rem;
+    color: #00D2D3;}
+#b16 {
+    position: absolute;
+    left: 1315px;
+    top: 278px;
+    font-size: 1.5rem;
+    color: #00D2D3;}
+#b17 {
+    position: absolute;
+    left: 1315px;
+    top: 235px;
+    font-size: 1.5rem;
+    color: #00D2D3;}
